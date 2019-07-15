@@ -36,12 +36,12 @@ Based on the species, a player will start with different ranks for their traits.
 | Electronics | Knowledge |
 | Examination | Awareness |
 | Geography | Knowledge |
-| Gun | Vitality |
 | Healing | Vitality |
 | Lore | Knowledge |
 | Sneak | Awareness |
 | Stunts | Vitality |
-| Sword | Vitality |
+| Weapons (blades) | Vitality |
+| Weapons (ranged) | Vitality |
 
 ### Jobs
 
@@ -49,18 +49,19 @@ Jobs provide characters with a set of three Expertise to start off with.
 
 * Electrician = Electronics, Examination, Gun
 * Monk = Examination, Healing, Lore
-* Officer = Gun, Lore, Stunts
+* Officer = Weapons (ranged), Lore, Stunts
 * Pilot = Driving, Electronics, Geography
 * Secret Agent = Examination, Convincing, Sneak
-* Swordsman = Geography, Stunts, Sword
+* Swordsman = Geography, Stunts, Weapons (blades)
 * Teacher = Convincing, Geography, Lore
 
 Note: When adding new jobs to this list, no two jobs should have two or more overlapping Expertise.
 
 ### Creation
 
-* Pick a species.
-* Pick a job.
+* Pick a Species.
+* Pick a Job.
+* Buy Items with a budget of $1000. Players get to keep the unspent money.
 
 ### Leveling Up
 
@@ -114,6 +115,50 @@ Omens:
 
 Turn Order:
 * PC 1 has ten points in Awareness and rolls a total of nine. Their Turn Order would be 9 (7 + (10 / 4)) . PC two has 2 points in Awareness and rolls a maximum of 12. Their Turn Order would be 12 (12 + (2 / 4)). PC 2 goes first. PC 1 goes after them.
+
+## Items
+
+### Armor
+
+| Name | Health Boost | Cost |
+| ---- | ------------ | ---- |
+| Tier 1 | 3 | 500 |
+| Tier 2 | 6 | 1000 |
+| Tier 3 | 9 | 2000 |
+| Tier 4 | 12 | 4000 |
+| Tier 5 | 15 | 8000 |
+
+### Weapons
+
+The higher the Rank a weapon is, the more delicate it is and harder to control. The Rank is the number of Passes required for the attack to succeed. Ranks can range from 1 (easiest) to 5 (hardest).
+
+#### Weapons (blades)
+
+| Name | Damage | Rank | Cost |
+| ---- | ------ | ---- | --- |
+| Knife | 2 | 1 | 100 |
+| Sword | 5 | 3 | 500 |
+| Sword, Plasma | 15 | 5 | 10000 |
+
+#### Weapons (ranged)
+
+Handheld
+
+| Name | Damage | Rank | Cost |
+| ---- | ------ | ---- | ---- |
+| Grenades (3 pack) | 5 | 4 | 1000 |
+| Grenade, Super (1 pack) | 30 | 5 | 5000 |
+| Machine Gun | 4 | 2 | 600 |
+| Pistol | 2 | 1 | 100 |
+| Rifle | 12 | 5 | 7500 |
+| Shotgun | 6 | 3 | 1000 |
+
+Vehicle
+
+| Name | Damage | Rank |
+| ---- | ------ | ---- |
+| Turret (small) | 20 | 4 |
+| Turret (large) | 35 | 5 |
 
 ## Vocabulary
 
