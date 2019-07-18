@@ -14,12 +14,12 @@ Goals:
 ### Traits
 
 * Awareness = Social skills and mental strength.
-* Knowledge = Smart and wise.
+* Knowledge = Philosophy.
 * Vitality = Health and power.
 
 ### Species
 
-Based on the species, a player will start with different ranks for their traits.
+Based on the species, a player will start with different ranks for their traits. The maximum number a character can have in any Trait is 10.
 
 | Name | Awareness | Knowledge | Vitality |
 | ---- | ------ | --------- | -------- |
@@ -27,7 +27,9 @@ Based on the species, a player will start with different ranks for their traits.
 | Human | 2 | 2 | 4 |
 | Robot | 2 | 4 | 2 |
 
-## Expertise
+## Skills
+
+Each Trait has four related Skills.
 
 | Name | Trait |
 | ---- | ----- |
@@ -36,19 +38,22 @@ Based on the species, a player will start with different ranks for their traits.
 | Electronics | Knowledge |
 | Examination | Awareness |
 | Geography | Knowledge |
-| Healing | Vitality |
+| Healing\* | Vitality |
+| Magic | Awareness |
 | Lore | Knowledge |
 | Sneak | Awareness |
 | Stunts | Vitality |
 | Weapons (blades) | Vitality |
 | Weapons (ranged) | Vitality |
 
+\*Healing takes two turns to complete, instead of one.
+
 ### Jobs
 
-Jobs provide characters with a set of three Expertise to start off with.
+Jobs provide characters with a set of three different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra 1d6 to the related Skill check.
 
 * Electrician = Electronics, Examination, Gun
-* Monk = Examination, Healing, Lore
+* Monk = Healing, Lore, Magic
 * Officer = Weapons (ranged), Lore, Stunts
 * Pilot = Driving, Electronics, Geography
 * Secret Agent = Examination, Convincing, Sneak
@@ -70,16 +75,33 @@ Note: When adding new jobs to this list, no two jobs should have two or more ove
 
 ## Health
 
-Health = Vitality x 5
+Health = Vitality + Armor + 10
+
+Possible Health:
+
+* Minimum = 2 + 0 + 10 = 12
+* Maximum = 10 + 25 + 10 = 45
 
 ## Dice
 
-The only dice required are standard six-sided dice (d6).
+These are the different types of dice used in Simpler Things. The dice that will be most commonly used are d6 and d4 for the Action and Weapons damage (character sized).
+
+Recommended dice:
+
+* Five d4, d6, and d10.
 
 | Name | 1 | 2 | 3 | 4 | 5 | 6 |
 | ---- | - | - | - | - | - | - |
-| Action | | | | Pass | Pass | Pass |
-| Expertise | | | | Improvement | Improvement | Improvement |
+| Action | | | | Pass | Improvement | Pass and Improvement |
+| Omen | Bad | Bad | Bad | Good | Good | Good |
+
+| Name | 1 | 2 | 3 | 4 |
+| ---- | - | - | - | - |
+| Weapons damage (character sized) | 1 | 2 | 3 | 4 |
+
+| Name | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| ---- | - | - | - | - | - | - | - | - | - | -- |
+| Weapons damage (vehicle sized) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 
 ### Actions, Improvements, and Epic Events
 
@@ -91,13 +113,22 @@ If a character gets an Improvement then something favorable happens to them, eve
 
 Getting five Improvements will result in an Epic Event. The PC can describe exactly what happens during with their Action (within reason and with approval of the GM). If damage is being dealt, it will be doubled.
 
+### Challenge
+
+The GM determines the Challenge of a Skills check. The harder an action is estimated to be, the more Action dice the GM rolls against the PCs. If the GM rolls more Passes than the PC, then the PC's Action does not pass. If the GM rolls more Improvements than the PC, then a negative event happens to the PC.
+
 ### Omens
 
 During the first session of the game, each PC should flip a coin or roll a d6 to determine if they get a Bad (1-3) or Good (4-6) Omen. With a Good Omen, a PC can add an extra Expertise die to their dice pool. With a Bad Omen, the GM can add an extra Expertise die to an NPC that is using an Action against the PCs. Once an Omen is used, it is converted to the opposite site. This means when a Good Omen is used, it becomes a Bad Omen. An Omen for/against a PC can only be used once per session. The PCs should record what Omen type they have at the end of each session.
 
 ### Turn Order
 
-All players (PCs and NPCs) must roll a d12 (or two d6) for their initiative. They can add one to their Turn Order roll for every four points in Awareness. The player with the highest result goes first and then the Turn Order continues in descending order.
+All players (PCs and NPCs) must roll a 2d6 (or 1d12) for their initiative. They can add one to their Turn Order roll for every three points in Awareness. The player with the highest result goes first and then the Turn Order continues in descending order.
+
+Summary:
+
+* Turn Order = `1d12 + (Awareness / 3)`
+* Go in descending order of everyone's results.
 
 ### Examples
 
@@ -105,7 +136,7 @@ Passes:
 *  If there was one Pass for the PC and two Passes for the GM means that the player fails at their Action (they got -1 Pass).
 
 Expertise:
-* A roll for a character with the Geography (Expertise) who has a Knowledge (Trait) of six will get to roll three Action dice (6 / 2 = 3) and one Expertise die (6 / 4 = 1.5).
+* A roll for a character with the Geography (Expertise) who has a Knowledge (Trait) of six will get to roll seven Action dice. They get the extra dice for having an Expertise in the Skill.
 
 Epic Event:
 * A player happens to have gotten a maximum of six Improvements from rolling two Expertise dice for their Electronics check. This results in an Epic Event (6 >= 5). The player describes how they managed to access the system using their own decryption method and gained additional information about their arch nemesis that the group was not originally planning on finding.
@@ -114,7 +145,7 @@ Omens:
 * A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen so the GM decides to make it harder for them and uses it to add an extra Expertise die against them. After this, the player gets a Good Omen they can use during the next game session.
 
 Turn Order:
-* PC 1 has ten points in Awareness and rolls a total of nine. Their Turn Order would be 9 (7 + (10 / 4)) . PC two has 2 points in Awareness and rolls a maximum of 12. Their Turn Order would be 12 (12 + (2 / 4)). PC 2 goes first. PC 1 goes after them.
+* PC 1 has ten points in Awareness and rolls an eleven from a 1d12. Their Turn Order would be 14 (11 + (10 / 3)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a 1d12. Their Turn Order would be 12 (12 + (2 / 3)). PC 1 goes first. PC 2 goes after them.
 
 ## Items
 
@@ -122,43 +153,46 @@ Turn Order:
 
 | Name | Health Boost | Cost |
 | ---- | ------------ | ---- |
-| Tier 1 | 3 | 500 |
-| Tier 2 | 6 | 1000 |
-| Tier 3 | 9 | 2000 |
-| Tier 4 | 12 | 4000 |
-| Tier 5 | 15 | 8000 |
+| Tier 1 | 5 | 500 |
+| Tier 2 | 10 | 1000 |
+| Tier 3 | 15 | 2000 |
+| Tier 4 | 20 | 4000 |
+| Tier 5 | 25 | 8000 |
 
 ### Weapons
 
-The higher the Rank a weapon is, the more delicate it is and harder to control. The Rank is the number of Passes required for the attack to succeed. Ranks can range from 1 (easiest) to 5 (hardest).
+Each Weapon has a Rank based on how easy or hard it is to use. The Rank is the number of Passes required for the Weapon to successfully attack with. It is also the number of dice to roll for the attack damage. Character sized weapons do d4 damage. Vehicle sized weapons do d10 damage. For example, an Assault Rifle that has Rank 2 will require two Passes. For damage, 2d4 dice will be rolled.
+
+Summary:
+
+* Rank = Passes required to successfully attack with that Weapon.
+* Rank = If the attack Passes, use the Rank number of d4 or d10 dice to roll for damage.
 
 #### Weapons (blades)
 
-| Name | Damage | Rank | Cost |
-| ---- | ------ | ---- | --- |
-| Knife | 2 | 1 | 100 |
-| Sword | 5 | 3 | 500 |
-| Sword, Plasma | 15 | 5 | 10000 |
+| Name | Rank | Cost |
+| ---- | ---- | ---- |
+| Knife | 1 | 100 |
+| Sword | 3 | 500 |
+| Sword, Plasma | 6 | 10000 |
 
 #### Weapons (ranged)
 
-Handheld
+| Name | Rank | Cost |
+| ---- | ---- | ---- |
+| Assault Rifle | 2 | 600 |
+| Grenades (3 pack) | 4 | 1000 |
+| Grenade, Super (1 pack) | 5 | 5000 |
+| Pistol | 1 | 100 |
+| Shotgun | 3 | 1000 |
+| Sniper Rifle | 5 | 7500 |
 
-| Name | Damage | Rank | Cost |
-| ---- | ------ | ---- | ---- |
-| Grenades (3 pack) | 5 | 4 | 1000 |
-| Grenade, Super (1 pack) | 30 | 5 | 5000 |
-| Machine Gun | 4 | 2 | 600 |
-| Pistol | 2 | 1 | 100 |
-| Rifle | 12 | 5 | 7500 |
-| Shotgun | 6 | 3 | 1000 |
+Vehicle (d10 Damage)
 
-Vehicle
-
-| Name | Damage | Rank |
-| ---- | ------ | ---- |
-| Turret (small) | 20 | 4 |
-| Turret (large) | 35 | 5 |
+| Name | Rank |
+| ---- | ---- |
+| Turret (small) | 3 |
+| Turret (large) | 5 |
 
 ## Vocabulary
 
@@ -166,8 +200,7 @@ Vehicle
 
 | Word | Definition |
 | ---- | ---------- |
-| d6 | A 6-sided die. |
-| d12 | A 12-sided die. |
+| d`#` | A die that has `#` number of sides. |
 | Dice Pool | The entire set of dice a character will roll for their attempt to do their Action. |
 | GM | The Game Master is the person who is hosting and controlling the game. |
 | NPC | Non-player characters are controlled by the Game Master. |
