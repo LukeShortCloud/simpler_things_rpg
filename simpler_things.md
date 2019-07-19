@@ -13,13 +13,15 @@ Goals:
 
 ### Traits
 
+Traits effect how good a character is at related Skills.
+
 * Awareness = Social skills and mental strength.
 * Knowledge = Philosophy.
 * Vitality = Health and power.
 
 ### Species
 
-Based on the species, a player will start with different ranks for their traits. The maximum number a character can have in any Trait is 10.
+Based on the Species, a player will start with different ranks for their Traits. The maximum number a character can have in any Trait is 10.
 
 | Name | Awareness | Knowledge | Vitality |
 | ---- | ------ | --------- | -------- |
@@ -103,23 +105,43 @@ Recommended dice:
 | ---- | - | - | - | - | - | - | - | - | - | -- |
 | Weapons damage (vehicle sized) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 
-### Actions, Improvements, and Epic Events
+### Skill Checks
 
-There are two pools of dice that are rolled. The first by the PC and then the second by the GM representing the environment or NPC. The results of both cancel each other other.
+**Actions**
 
-The GM may use any number of Action or Expertise dice, based on the scenario. The dice pool for the PC, however, is precisely calculated. For every two points of a Trait, a character can roll one Action dice. For every four points of a Trait, a character can also add an Expertise dice.
+When a player wants to do an Action with a Skill, they must roll for it. There are two pools of dice that are rolled. The first is by the PC based on their Trait and, if available, their Expertise of a Skill. The second is handled by the GM representing the environment or a NPC based on how Challenging they think the Action should be. The results of both cancel each other. One Pass from the GM cancels out one Pass from the PC. The PC needs at least one Pass to complete the Action.
 
-If a character gets an Improvement then something favorable happens to them, even if the exact Action they were doing does not Pass. Getting a negative Improvement will result in something undesirable happening as a result of the Action. The GM decides what the favorable or undesirable outcome is.
+The dice pool for the PC is a group of d6 dice. The related Trait of the Skill will need to be looked up. The PC's level in that Trait determines the number of d6 dice to roll. If they also have an Expertise in the Skill, they get to roll an extra 1d6.
 
-Getting five Improvements will result in an Epic Event. The PC can describe exactly what happens during with their Action (within reason and with approval of the GM). If damage is being dealt, it will be doubled.
+**Improvements**
 
-### Challenge
+If a character gets at least one Improvement then something favorable happens to them, even if the Action they were doing does not Pass. Getting a negative Improvement will result in something undesirable happening as a result of the Action. The GM decides what the favorable or undesirable outcome is.
 
-The GM determines the Challenge of a Skills check. The harder an action is estimated to be, the more Action dice the GM rolls against the PCs. If the GM rolls more Passes than the PC, then the PC's Action does not pass. If the GM rolls more Improvements than the PC, then a negative event happens to the PC.
+**Challenge**
+
+The GM determines the Challenge of a Skills check based on the situation. The harder an action is estimated to be, the more Action dice the GM rolls against the PCs. If the GM rolls more Passes than the PC, then the PC's Action does not pass. If the GM rolls more Improvements than the PC, then a negative event happens to the PC.
+
+The GM may use any number of Action or Expertise dice, based on what they think the Challenge of a scenario should be.
+
+**Epic Events**
+
+Getting five Improvements OR rolling four dice with a result of 6 on each one will result in an Epic Event. The PC can describe exactly what happens during with their Action (within reason and with approval of the GM). If damage is being dealt, it will be doubled.
+
+Summary:
+
+* Triggers for an Epic Event
+    * Five Improvements or...
+    * Four "6" results from a d6 Action roll.
 
 ### Omens
 
-During the first session of the game, each PC should flip a coin or roll a d6 to determine if they get a Bad (1-3) or Good (4-6) Omen. With a Good Omen, a PC can add an extra Expertise die to their dice pool. With a Bad Omen, the GM can add an extra Expertise die to an NPC that is using an Action against the PCs. Once an Omen is used, it is converted to the opposite site. This means when a Good Omen is used, it becomes a Bad Omen. An Omen for/against a PC can only be used once per session. The PCs should record what Omen type they have at the end of each session.
+During the first session of the game, each PC should flip a coin or roll a d6 to determine if they get a Bad (1-3) or Good (4-6) Omen. With a Good Omen, a PC can add two extra Action dice to their dice pool. With a Bad Omen, the GM can add two extra Action die to for a NPC that is using an Action. Alternatively, the GM may also use two extra Action die for a Challenge Check. Once an Omen is used, it is converted to the opposite side. This means that when a Good Omen is used it becomes a Bad Omen. An Omen for/against a PC can only be used once per session. The PCs should record what Omen type they have at the end of each session.
+
+Summary:
+
+* An Omen can be Good (helps the PC) or Bad (helps the GM).
+* An Omen for a character can only be used once per game session.
+* An Omen adds 2d6 to a Skills Check for an Action.
 
 ### Turn Order
 
@@ -210,13 +232,15 @@ Vehicle (d10 Damage)
 
 | Word | Definition |
 | ---- | ---------- |
-| Action | When a character tries to use their Skills or Expertise. |
+| Action | The attempt of a character to use a Skill. |
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
-| Expertise | Provides a potential for a favorable alternative outcome. |
-| Improvement | Used to determine if a player's Action will have positive, negative, or no side affects. |
-| Jobs | A job represents the 3 related skills a character will start with. |
-| Omen | A Good Omen can be used by a PC to try to help themselves or a Bad Omen can be used by the GM to try to harm a PC.
+| Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra 1d6 to roll. |
+| Improvement | Provides a potential for a favorable or unfavorable alternative outcome of doing an Action. |
+| Job | A job represents 3 related skills a character will start with. |
+| Omen | A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM to try to harm a PC.
 | Pass | Used to determine if a player's Action will work. |
+| Skills | The core Actions a character can do in the game. |
+| Skills Check | The rolling of dice to see if a character can complete an Action. |
 | Species | The type of Species represents the Trait levels a character will start with. |
 | Traits | Statistics that, along with their Expertise, affect the amount of dice in a Player Characters' dice pool. |
 
