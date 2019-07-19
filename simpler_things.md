@@ -41,14 +41,17 @@ Each Trait has four related Skills.
 | Examination | Awareness |
 | Geography | Knowledge |
 | Healing\* | Vitality |
-| Magic | Awareness |
+| Magic\*\* | Awareness |
 | Lore | Knowledge |
 | Sneak | Awareness |
 | Stunts | Vitality |
 | Weapons (blades) | Vitality |
 | Weapons (ranged) | Vitality |
 
-\*Healing takes two turns to complete, instead of one.
+Notes:
+
+* \*Healing takes two turns to complete, instead of one.
+* \*\*Magic can only be used by player characters that start the game with it as an Expertise.
 
 ### Jobs
 
@@ -83,6 +86,15 @@ Possible Health:
 
 * Minimum = 2 + 0 + 10 = 12
 * Maximum = 10 + 25 + 10 = 45
+
+When a player character's health is at...
+
+* 0 = They can no longer make an action.
+* -10 = Their armor breaks and cannot be repaired/reused.
+* -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point.
+* -30 = They die.
+
+Healing will affect both a character's pure health and their armor.
 
 ## Dice
 
@@ -135,12 +147,12 @@ Summary:
 
 ### Omens
 
-During the first session of the game, each PC should flip a coin or roll a d6 to determine if they get a Bad (1-3) or Good (4-6) Omen. With a Good Omen, a PC can add two extra Action dice to their dice pool. With a Bad Omen, the GM can add two extra Action die to for a NPC that is using an Action. Alternatively, the GM may also use two extra Action die for a Challenge Check. Once an Omen is used, it is converted to the opposite side. This means that when a Good Omen is used it becomes a Bad Omen. An Omen for/against a PC can only be used once per session. The PCs should record what Omen type they have at the end of each session.
+During the first session of the game, each PC should flip a coin or roll a d6 to determine if they get a Bad (1-3) or Good (4-6) Omen. With a Good Omen, a PC can add two extra Action dice to their dice pool. With a Bad Omen, the GM can add two extra Action die to for a NPC that is using an Action. Alternatively, the GM may also use two extra Action die for a Challenge Check. Once an Omen is used, it is converted to the opposite side. This means that when a Good Omen is used it becomes a Bad Omen. An Omen for/against a PC can only be used twice per session. The PCs should record what Omen type they have at the end of each session.
 
 Summary:
 
 * An Omen can be Good (helps the PC) or Bad (helps the GM).
-* An Omen for a character can only be used once per game session.
+* Omens for/against a character can only be used twice per game session (usually one Good and one Bad).
 * An Omen adds 2d6 to a Skills Check for an Action.
 
 ### Turn Order
@@ -215,6 +227,21 @@ Vehicle (d10 Damage)
 | ---- | ---- |
 | Turret (small) | 3 |
 | Turret (large) | 5 |
+
+## Magic
+
+Using Magic that is labeled as a Bad Omen will convert a character's Good Omen into a Bad Omen. If the character already has a Bad Omen then they are unaffected.
+
+| Name | Rank | Bad Omen | Description |
+| ---- | ---- | -------- | ----------- |
+| Brainwash | 6 | | Manipulate the brain of another character to make them believe or do something temporarily. |
+| Crush | 6 | Yes | Exert pressure all around a character or thing to crush it. Does 6d4 damage. |
+| Heal | 7 | | Heal a character for 7d4 health. |
+| Heal, Steal | 8 | Yes | Steal health from another character. Take 8d4 health away from the other character and add it to the caster's health. |
+| Kill | 10 | Yes | Instantly kill any character. |
+| Move | 5 |  | Move objects around with the mind. |
+| Revive | 9 | | Revive a recently killed character. |
+| Thunderstorm | 7 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does 7d4 damage. |
 
 ## Vocabulary
 
