@@ -207,6 +207,7 @@ Summary:
 | Name | Rank | Cost |
 | ---- | ---- | ---- |
 | Knife | 1 | 100 |
+| Quarterstaff | 2 | 300 |
 | Sword | 3 | 500 |
 | Sword, Plasma | 6 | 10000 |
 
@@ -215,13 +216,16 @@ Summary:
 | Name | Rank | Cost |
 | ---- | ---- | ---- |
 | Assault Rifle | 2 | 600 |
-| Grenades (3 pack) | 4 | 1000 |
-| Grenade, Super (1 pack) | 5 | 5000 |
+| Crossbow | 4 | 2500 |
+| \*Grenades (3 pack) | 4 | 1000 |
+| \*Grenade, Super (1 pack) | 5 | 5000 |
 | Pistol | 1 | 100 |
 | Shotgun | 3 | 1000 |
 | Sniper Rifle | 5 | 7500 |
 
-Vehicle (d10 Damage)
+\*Grenades have a one-time use and do damage in an area of 10 meters.
+
+**Vehicle (d10 Damage)**
 
 | Name | Rank |
 | ---- | ---- |
