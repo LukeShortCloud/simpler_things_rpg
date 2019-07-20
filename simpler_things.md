@@ -57,15 +57,23 @@ Notes:
 
 Jobs provide characters with a set of three different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra 1d6 to the related Skill check.
 
-* Electrician = Electronics, Examination, Gun
-* Monk = Healing, Lore, Magic
-* Officer = Weapons (ranged), Lore, Stunts
-* Pilot = Driving, Electronics, Geography
-* Secret Agent = Examination, Convincing, Sneak
-* Swordsman = Geography, Stunts, Weapons (blades)
-* Teacher = Convincing, Geography, Lore
-
-Note: When adding new jobs to this list, no two jobs should have two or more overlapping Expertise.
+| Job | Expertise 1 | Expertise 2 | Expertise 3 |
+| --- | ----------- | ----------- | ----------- |
+| Administrator | Healing | Electronics | Weapons (ranged) |
+| Adventurer | Examination | Geography | Lore |
+| Doctor | Driving | Examination | Healing |
+| Electrician | Electronics | Examination | Weapons (blades) |
+| Hacker | Electronics | Sneak | Stunts |
+| Monk | Healing | Lore | Magic |
+| Ninja | Sneak | Stunts | Weapons (blades) |
+| Nomad | Lore | Magic | Weapons (ranged) |
+| Officer | Healing | Stunts | Weapons (ranged) |
+| Pilot | Driving | Electronics | Geography
+| Protector | Convincing | Magic | Weapons (blades) |
+| Refugee | Magic | Sneak | Weapons (ranged) |
+| Secret Agent | Convincing | Examination | Sneak
+| Swordsman | Geography | Stunts | Weapons (blades) |
+| Teacher | Convincing | Geography | Lore |
 
 ### Creation
 
