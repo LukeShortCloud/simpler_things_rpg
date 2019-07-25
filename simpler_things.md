@@ -242,9 +242,11 @@ Summary:
 
 ## Magic
 
+Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. They have access to all of the available Spells.
+
 Using Magic that is labeled as a Bad Omen will convert a character's Good Omen into a Bad Omen. If the character already has a Bad Omen then they are unaffected.
 
-| Name | Rank | Bad Omen | Description |
+| Spell | Rank | Bad Omen | Description |
 | ---- | ---- | -------- | ----------- |
 | Brainwash | 6 | | Manipulate the brain of another character to make them believe or do something temporarily. |
 | Crush | 6 | Yes | Exert pressure all around a character or thing to crush it. Does 6d4 damage. |
@@ -283,6 +285,33 @@ Roll 1d20 and then give the character who is searching the loot the item(s) they
 | 18 | Note about a quest |
 | 19 | Key |
 | 20 | 10d100 in money
+
+## Quick Start
+
+* The Game Master (GM) decides the genre, time, and setting for a game.
+* Player Characters (PCs) use a Character Sheet and fill it out by following the Characters Creation guide.
+* Each PC rolls `1d6` to determine if they start with a Bad (1, 2, or 3) or Good (4, 5, or 6) Omen.
+* PCs can interact with anything in the game based off of their Skills and the related Traits. This is called an Action.
+    * `Trait x d6`
+    * If they have an Expertise in a Skill, they can roll one extra six-sided die.
+    * A Good Omen can be used once per session (and then converted into a Bad Omen) to add two six-sided die to the Action pool.
+* The GM decides how Challenging an Action is based on the situation.
+    * `Challenge x d6`
+    * A Bad Omen against a PC can be used once per session (and then converted into a Good Omen for them) to add two six-sided die to the Challenge pool.
+    * Every Pass and Improvement from the GM’s dice roll negates what the PC rolled.
+* The GM determines the output of an Action.
+    * Positive or Negative Pass = The PC successfully completes or fails their Action.
+    * Positive or Negative Improvement = A good or bad side-effect happens as a result of the Action (determined by the GM).
+    * Epic Event (Five Improvements or four separate dice results of “6”) = The Action is so perfectly executed that something amazing happens. If the PC triggers an Epic Event, they can narrate what happens.
+        * If this is for a Weapons related Action, the damage will be doubled.
+* Combat
+    * Everyone rolls for their Turn Order. The characters with the highest number goes first.
+        * `1d12 + (Awareness / 3)`
+    * For a Weapons Action to Pass, a character must get the same number of Passes as the number of Rank the Weapon has listed.
+        * If the Action Passes, the character rolls `Weapon Rank x d4` for damage for normal handheld Weapons. For vehicle Weapons, the roll for damage is `Weapon Rank x d10`.
+* Magic
+    * Works the same as any normal Skill check except it requires that a character has an Expertise in Magic to use it at all.
+    * If it Passes, the PC can narrate what happens as a result of their Action (within reason and with approval from the GM).
 
 ## Vocabulary
 
