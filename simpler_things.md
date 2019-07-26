@@ -1,13 +1,4 @@
-# Simpler Things RPG Engine
-
-An open source role-playing table-top game engine.
-
-Goals:
-
-* Simple rules
-* Quick references
-* Fast setup time for new campaigns and players
-* Flexible enough to work with any genre
+# Simpler Things RPG
 
 ## Characters
 
