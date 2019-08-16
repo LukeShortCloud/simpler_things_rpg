@@ -9,6 +9,15 @@ Goals:
 * Fast setup time for new campaigns and players
 * Flexible enough to work with any genre
 
+## Build Releaess
+
+Each tagged releaes on GitHub has a related release that provides PDF files.
+
+```
+$ pandoc -f markdown -t latex -o simpler_things.pdf simpler_things.md
+$ pandoc -f markdown -t latex -o str_character_sheet.pdf str_character_sheet.md
+```
+
 ## Licenses
 
 All documents are licensed under open source licenses.
