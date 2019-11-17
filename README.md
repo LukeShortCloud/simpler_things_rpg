@@ -15,7 +15,7 @@ Each tagged releaes on GitHub has a related release that provides PDF files.
 
 ```
 $ pandoc -f markdown -t latex -o simpler_things.pdf simpler_things.md
-$ pandoc -f markdown -t latex -o str_character_sheet.pdf str_character_sheet.md
+$ pandoc -f markdown -t latex -o stre_character_sheet.pdf stre_character_sheet.md
 ```
 
 ## Licenses
@@ -25,4 +25,4 @@ All documents are licensed under open source licenses.
 * [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.en.html)
     * simpler_things.md
 * [WTFPL](http://www.wtfpl.net/about/)
-    * str_character_sheet.md
+    * stre_character_sheet.md

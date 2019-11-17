@@ -331,6 +331,7 @@ Roll 1d20 and then give the character who is searching the loot the item(s) they
 | Skills Check | The rolling of dice to see if a character can complete an Action. |
 | Species | The type of Species represents the Trait levels a character will start with. |
 | Traits | Statistics that, along with their Expertise, affect the amount of dice in a Player Characters' dice pool. |
+| STRE | Simpler Things RPG Engine. The official name of this open-source game engine. |
 
 ## License
 
