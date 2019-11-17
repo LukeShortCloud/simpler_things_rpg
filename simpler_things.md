@@ -243,7 +243,7 @@ Using Magic that is labeled as a Bad Omen will convert a character's Good Omen i
 | Crush | 6 | Yes | Exert pressure all around a character or thing to crush it. Does 6d4 damage. |
 | Heal | 7 | | Heal a character for 7d4 health. |
 | Heal, Steal | 8 | Yes | Steal health from another character. Take 8d4 health away from the other character and add it to the caster's health. |
-| Kill | 10 | Yes | Instantly kill any character. |
+| Kill | 10 | Yes | Instantly kill any character of equal or lesser Vitality. |
 | Move | 5 |  | Move objects around with the mind. |
 | Revive | 9 | | Revive a recently killed character. |
 | Thunderstorm | 7 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does 7d4 damage. |
