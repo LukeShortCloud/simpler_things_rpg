@@ -156,11 +156,11 @@ Summary:
 
 ### Turn Order
 
-All players (PCs and NPCs) must roll a 2d6 (or 1d12) for their initiative. They can add one to their Turn Order roll for every three points in Awareness. The player with the highest result goes first and then the Turn Order continues in descending order.
+All players (PCs and NPCs) must roll a 1d12 (or 2d6) for their initiative and then add their Awareness to the result. The player with the highest result goes first and then the Turn Order continues in descending order.
 
 Summary:
 
-* Turn Order = `1d12 + (Awareness / 3)`
+* Turn Order = `1d12 + AWARENESS`
 * Go in descending order of everyone's results.
 
 ### Examples
