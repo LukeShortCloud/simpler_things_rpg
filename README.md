@@ -11,12 +11,10 @@ Goals:
 
 ## Build Releaess
 
-Each tagged releaes on GitHub has a related release that provides PDF files.
+Each tagged release on GitHub has a related release that provides PDF files.
 
-```
-$ pandoc -f markdown -t latex -o simpler_things.pdf simpler_things.md
-$ pandoc -f markdown -t latex -o stre_character_sheet.pdf stre_character_sheet.md
-$ pandoc -f markdown -t latex -o stre_gm_reference_sheet.pdf stre_gm_reference_sheet.md
+```sh
+for guide in $(ls -1 *.md | cut -d\. -f1); do pandoc -f markdown -t latex -o ${guide}.pdf ${guide}.md; done
 ```
 
 ## Licenses
