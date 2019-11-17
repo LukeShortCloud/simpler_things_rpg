@@ -30,3 +30,7 @@ Roll 1d20 and then give the character who is searching the loot the item(s) they
 | 18 | Note about a quest |
 | 19 | Key |
 | 20 | 10d100 in money |
+
+## License
+
+[GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.en.html).
