@@ -106,7 +106,6 @@ Recommended dice:
 | Name | 1 | 2 | 3 | 4 | 5 | 6 |
 | ---- | - | - | - | - | - | - |
 | Action | | | | Pass | Improvement | Pass and Improvement |
-| Omen | Bad | Bad | Bad | Good | Good | Good |
 
 | Name | 1 | 2 | 3 | 4 |
 | ---- | - | - | - | - |
@@ -146,13 +145,7 @@ Summary:
 
 ### Omens
 
-During the first session of the game, each PC should flip a coin or roll a d6 to determine if they get a Bad (1-3) or Good (4-6) Omen. With a Good Omen, a PC can add two extra Action dice to their dice pool. With a Bad Omen, the GM can add two extra Action die to for a NPC that is using an Action. Alternatively, the GM may also use two extra Action die for a Challenge Check. Once an Omen is used, it is converted to the opposite side. This means that when a Good Omen is used it becomes a Bad Omen. An Omen for/against a PC can only be used twice per session. The PCs should record what Omen type they have at the end of each session.
-
-Summary:
-
-* An Omen can be Good (helps the PC) or Bad (helps the GM).
-* Omens for/against a character can only be used twice per game session (usually one Good and one Bad).
-* An Omen adds 2d6 to a Skills Check for an Action.
+Before the start of every game session, each player should flip a coin (`1d2`). Heads (1) provides a Good Omen for the player and tails (2) provides a Bad Omen for the GM to use against the player. Each Omen can only be used once for that game session. An Omen adds `2d6` to any Skill Check.
 
 ### Turn Order
 
@@ -175,7 +168,7 @@ Epic Event:
 * A player happens to have gotten a maximum of six Improvements from rolling two Expertise dice for their Electronics check. This results in an Epic Event (6 >= 5). The player describes how they managed to access the system using their own decryption method and gained additional information about their arch nemesis that the group was not originally planning on finding.
 
 Omens:
-* A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen so the GM decides to make it harder for them and uses it to add an extra Expertise die against them. After this, the player gets a Good Omen they can use during the next game session.
+* A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen and the GM decides to make it harder for themto succeed. The GM upgrades the difficulty of the `Stunts` Skill check by adding `2d6`.
 
 Turn Order:
 * PC 1 has ten points in Awareness and rolls an eleven from a 1d12. Their Turn Order would be 14 (11 + (10 / 3)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a 1d12. Their Turn Order would be 12 (12 + (2 / 3)). PC 1 goes first. PC 2 goes after them.
@@ -235,7 +228,7 @@ Summary:
 
 Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. They have access to all of the available Spells.
 
-Using Magic that is labeled as a Bad Omen will convert a character's Good Omen into a Bad Omen. If the character already has a Bad Omen then they are unaffected.
+Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
 
 | Spell | Rank | Bad Omen | Description |
 | ---- | ---- | -------- | ----------- |
@@ -252,7 +245,7 @@ Using Magic that is labeled as a Bad Omen will convert a character's Good Omen i
 
 * The Game Master (GM) decides the genre, time, and setting for a game.
 * Player Characters (PCs) use a Character Sheet and fill it out by following the Characters Creation guide.
-* Each PC rolls `1d6` to determine if they start with a Bad (1, 2, or 3) or Good (4, 5, or 6) Omen.
+* Each PC rolls `1d2` to determine if they start with a Good (1) or Bad (2) Omen.
 * PCs can interact with anything in the game based off of their Skills and the related Traits. This is called an Action.
     * `Trait x d6`
     * If they have an Expertise in a Skill, they can roll one extra six-sided die.
@@ -296,10 +289,10 @@ Using Magic that is labeled as a Bad Omen will convert a character's Good Omen i
 | Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra 1d6 to roll. |
 | Improvement | Provides a potential for a favorable or unfavorable alternative outcome of doing an Action. |
 | Job | A job represents 3 related skills a character will start with. |
-| Omen | A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM to try to harm a PC.
+| Omen | A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
 | Skills | The core Actions a character can do in the game. |
-| Skills Check | The rolling of dice to see if a character can complete an Action. |
+| Skill Check | The rolling of dice to see if a character can complete an Action. |
 | Species | The type of Species represents the Trait levels a character will start with. |
 | Traits | Statistics that, along with their Expertise, affect the amount of dice in a Player Characters' dice pool. |
 | STRE | Simpler Things RPG Engine. The official name of this open-source game engine. |
