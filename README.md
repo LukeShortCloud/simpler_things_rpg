@@ -9,7 +9,7 @@ Goals:
 * Fast setup time for new campaigns and players
 * Flexible enough to work with any genre
 
-## Build Releaess
+## Build Releases
 
 Each tagged release on GitHub has a related release that provides PDF files.
 
