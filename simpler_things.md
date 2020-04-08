@@ -242,7 +242,7 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
         * If this is for a Weapons related Action, the damage will be doubled.
 * Combat
     * Everyone rolls for their Turn Order. The characters with the highest number goes first.
-        * `1d12 + (AWARENESS / 3)`
+        * `1d12 + AWARENESS`
     * For a Weapons Action to Pass, a character must get the same number of Passes as the number of Rank the Weapon has listed.
         * If the Action Passes, the character rolls `WEAPON RANK x d4` for damage for normal handheld Weapons. For vehicle Weapons, the roll for damage is `WEAPON RANK x d10`.
 * Magic
