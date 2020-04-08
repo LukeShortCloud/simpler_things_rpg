@@ -97,51 +97,34 @@ Healing will affect both a character's pure health and their armor.
 
 ## Dice
 
-These are the different types of dice used in Simpler Things. The dice that will be most commonly used are d6 and d4 for the Action and Weapons damage (character sized).
+These are the different types of dice used for Simpler Things.
 
-Recommended dice:
-
-* Five d4, d6, and d10.
-
-| Name | 1 | 2 | 3 | 4 | 5 | 6 |
-| ---- | - | - | - | - | - | - |
-| Action | | | | Pass | Improvement | Pass and Improvement |
-
-| Name | 1 | 2 | 3 | 4 |
-| ---- | - | - | - | - |
-| Weapons damage (character sized) | 1 | 2 | 3 | 4 |
-
-| Name | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| ---- | - | - | - | - | - | - | - | - | - | -- |
-| Weapons damage (vehicle sized) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| Name | Dice Sides | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| ---- | ---------- | - | - | - | - | - | - | - | - | - | -- |
+| Omen | `2 | Good | Bad |
+| Skill Check (Action and Side Effect) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
+| Weapons damage (character sized) | 4 | 1 | 2 | 3 | 4 |
+| Weapons damage (vehicle sized) | 10 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 
 ### Skill Checks
 
-**Actions**
+Player: When a player wants to perform an Action, they must tell the party (or at least the GM) and do a Skill Check. Determine the most related Skill for the Action. Based on that Skill, the player must roll their `TRAIT` number of `d6`. Add `1d6` to the dice pool if the Skill is an Expertise they player has.
 
-When a player wants to do an Action with a Skill, they must roll for it. There are two pools of dice that are rolled. The first is by the PC based on their Trait and, if available, their Expertise of a Skill. The second is handled by the GM representing the environment or a NPC based on how Challenging they think the Action should be. The results of both cancel each other. One Pass from the GM cancels out one Pass from the PC. The PC needs at least one Pass to complete the Action.
+GM: The GM determines the Challenge of the Action and rolls any number of `d6` accordingly. The harder the Challenge, the more dice in the pool. Both the player and the GM need to add together the numbers that were rolled to determine each of their Results.The player will Pass a Skill Check if their Result is higher than the GM's Result.
 
-The dice pool for the PC is a group of d6 dice. The related Trait of the Skill will need to be looked up. The PC's level in that Trait determines the number of d6 dice to roll. If they also have an Expertise in the Skill, they get to roll an extra 1d6.
+**Side Effects**
 
-**Improvements**
+A player must also separately roll `1d6` to determine if there is a Side Effect. If the player has an Expertise in the related Skill, add one to that Result. The GM determines what the Side Effect will be. It should relate to the Action that was (or was not) performed.
 
-If a character gets at least one Improvement then something favorable happens to them, even if the Action they were doing does not Pass. Getting a negative Improvement will result in something undesirable happening as a result of the Action. The GM decides what the favorable or undesirable outcome is.
+- 1-2 = Negative
+- 3-4 = Neutral or Nothing
+- 5-6 = Positive
 
-**Challenge**
-
-The GM determines the Challenge of a Skills check based on the situation. The harder an action is estimated to be, the more Action dice the GM rolls against the PCs. If the GM rolls more Passes than the PC, then the PC's Action does not pass. If the GM rolls more Improvements than the PC, then a negative event happens to the PC.
-
-The GM may use any number of Action or Expertise dice, based on what they think the Challenge of a scenario should be.
+The GM tells the players what happens in the game regarding the Results of the Action and Side Effect.
 
 **Epic Events**
 
-Getting five Improvements OR rolling four dice with a result of 6 on each one will result in an Epic Event. The PC can describe exactly what happens during with their Action (within reason and with approval of the GM). If damage is being dealt, it will be doubled.
-
-Summary:
-
-* Triggers for an Epic Event
-    * Five Improvements or...
-    * Four "6" results from a d6 Action roll.
+An Epic Event is triggered if the player rolls at least `4d6` with a natural 6 on each of the four die. For an Epic Event, the player can describe exactly what happens with their Action. The event should be within reason and must be approved by the GM. If damage is being dealt, it will be doubled.
 
 ### Omens
 
@@ -165,7 +148,7 @@ Expertise:
 * A roll for a character with the Geography (Expertise) who has a Knowledge (Trait) of six will get to roll seven Action dice. They get the extra dice for having an Expertise in the Skill.
 
 Epic Event:
-* A player happens to have gotten a maximum of six Improvements from rolling two Expertise dice for their Electronics check. This results in an Epic Event (6 >= 5). The player describes how they managed to access the system using their own decryption method and gained additional information about their arch nemesis that the group was not originally planning on finding.
+* A player does a Skill Check for Electronics. They roll `5d6` and get the numbers: 4, 6, 6, 6, and 6. This triggers an Epic Event. The player describes how they managed to access the system using their own decryption method and gained additional information about their arch nemesis that the group was not originally planning on finding there.
 
 Omens:
 * A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen and the GM decides to make it harder for themto succeed. The GM upgrades the difficulty of the `Stunts` Skill check by adding `2d6`.
@@ -247,23 +230,21 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 * Player Characters (PCs) use a Character Sheet and fill it out by following the Characters Creation guide.
 * Each PC rolls `1d2` to determine if they start with a Good (1) or Bad (2) Omen.
 * PCs can interact with anything in the game based off of their Skills and the related Traits. This is called an Action.
-    * `Trait x d6`
+    * `TRAIT x d6`
     * If they have an Expertise in a Skill, they can roll one extra six-sided die.
-    * A Good Omen can be used once per session (and then converted into a Bad Omen) to add two six-sided die to the Action pool.
+    * An Omen can be used once per game session to add two six-sided die (`2d6`) to the Action pool.
 * The GM decides how Challenging an Action is based on the situation.
-    * `Challenge x d6`
-    * A Bad Omen against a PC can be used once per session (and then converted into a Good Omen for them) to add two six-sided die to the Challenge pool.
-    * Every Pass and Improvement from the GM’s dice roll negates what the PC rolled.
+    * `CHALLENGE x d6`
 * The GM determines the output of an Action.
     * Positive or Negative Pass = The PC successfully completes or fails their Action.
-    * Positive or Negative Improvement = A good or bad side-effect happens as a result of the Action (determined by the GM).
-    * Epic Event (Five Improvements or four separate dice results of “6”) = The Action is so perfectly executed that something amazing happens. If the PC triggers an Epic Event, they can narrate what happens.
+    * Positive or Negative Side Effect = A good or bad side effect (related event) happens as a result of the Action. This is determined by the GM.
+    * Epic Event (four separate `1d6` dice naturally land on a 6) = The Action is so perfectly executed that something amazing happens. If the PC triggers an Epic Event, they can narrate what happens.
         * If this is for a Weapons related Action, the damage will be doubled.
 * Combat
     * Everyone rolls for their Turn Order. The characters with the highest number goes first.
-        * `1d12 + (Awareness / 3)`
+        * `1d12 + (AWARENESS / 3)`
     * For a Weapons Action to Pass, a character must get the same number of Passes as the number of Rank the Weapon has listed.
-        * If the Action Passes, the character rolls `Weapon Rank x d4` for damage for normal handheld Weapons. For vehicle Weapons, the roll for damage is `Weapon Rank x d10`.
+        * If the Action Passes, the character rolls `WEAPON RANK x d4` for damage for normal handheld Weapons. For vehicle Weapons, the roll for damage is `WEAPON RANK x d10`.
 * Magic
     * Works the same as any normal Skill check except it requires that a character has an Expertise in Magic to use it at all.
     * If it Passes, the PC can narrate what happens as a result of their Action (within reason and with approval from the GM).
@@ -274,7 +255,7 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 
 | Word | Definition |
 | ---- | ---------- |
-| d`#` | A die that has `#` number of sides. |
+| `d#` | A die that has `#` number of sides. |
 | Dice Pool | The entire set of dice a character will roll for their attempt to do their Action. |
 | GM | The Game Master is the person who is hosting and controlling the game. |
 | NPC | Non-player characters are controlled by the Game Master. |
@@ -285,12 +266,13 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Word | Definition |
 | ---- | ---------- |
 | Action | The attempt of a character to use a Skill. |
+| Challenge | The difficulty of trying to perform an Action. |
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
 | Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra 1d6 to roll. |
-| Improvement | Provides a potential for a favorable or unfavorable alternative outcome of doing an Action. |
 | Job | A job represents 3 related skills a character will start with. |
 | Omen | A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
+| Side Effect | Provides a potential for a favorable or unfavorable outcome of doing an Action. |
 | Skills | The core Actions a character can do in the game. |
 | Skill Check | The rolling of dice to see if a character can complete an Action. |
 | Species | The type of Species represents the Trait levels a character will start with. |
