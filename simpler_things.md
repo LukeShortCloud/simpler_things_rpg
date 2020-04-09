@@ -46,7 +46,7 @@ Notes:
 
 ### Jobs
 
-Jobs provide characters with a set of three different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra 1d6 to the related Skill check.
+Jobs provide characters with a set of three different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill check.
 
 | Job | Expertise 1 | Expertise 2 | Expertise 3 |
 | --- | ----------- | ----------- | ----------- |
@@ -132,7 +132,7 @@ Before the start of every game session, each player should flip a coin (`1d2`). 
 
 ### Turn Order
 
-All players (PCs and NPCs) must roll a 1d12 (or 2d6) for their initiative and then add their Awareness to the result. The player with the highest result goes first and then the Turn Order continues in descending order.
+All players (PCs and NPCs) must roll a `1d12` (or `2d6`) for their initiative and then add their Awareness to the result. The player with the highest result goes first and then the Turn Order continues in descending order.
 
 Summary:
 
@@ -154,7 +154,7 @@ Omens:
 * A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen and the GM decides to make it harder for themto succeed. The GM upgrades the difficulty of the `Stunts` Skill check by adding `2d6`.
 
 Turn Order:
-* PC 1 has ten points in Awareness and rolls an eleven from a 1d12. Their Turn Order would be 14 (11 + (10 / 3)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a 1d12. Their Turn Order would be 12 (12 + (2 / 3)). PC 1 goes first. PC 2 goes after them.
+* PC 1 has ten points in Awareness and rolls an eleven from a `1d12`. Their Turn Order would be 14 (11 + (10 / 3)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a `1d12`. Their Turn Order would be 12 (12 + (2 / 3)). PC 1 goes first. PC 2 goes after them.
 
 ## Items
 
@@ -170,7 +170,7 @@ Turn Order:
 
 ### Weapons
 
-Each Weapon has a Rank based on how easy or hard it is to use. The Rank is the number of Passes required for the Weapon to successfully attack with. It is also the number of dice to roll for the attack damage. Character sized weapons do d4 damage. Vehicle sized weapons do d10 damage. For example, an Assault Rifle that has Rank 2 will require two Passes. For damage, 2d4 dice will be rolled.
+Each Weapon has a Rank based on how easy or hard it is to use. The Rank is the number of Passes required for the Weapon to successfully attack with. It is also the number of dice to roll for the attack damage. Character sized weapons do d4 damage. Vehicle sized weapons do d10 damage. For example, an Assault Rifle that has Rank 2 will require two Passes. For damage, `2d4` dice will be rolled.
 
 Summary:
 
@@ -216,13 +216,13 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Spell | Rank | Bad Omen | Description |
 | ---- | ---- | -------- | ----------- |
 | Brainwash | 6 | | Manipulate the brain of another character to make them believe or do something temporarily. |
-| Crush | 6 | Yes | Exert pressure all around a character or thing to crush it. Does 6d4 damage. |
-| Heal | 7 | | Heal a character for 7d4 health. |
-| Heal, Steal | 8 | Yes | Steal health from another character. Take 8d4 health away from the other character and add it to the caster's health. |
+| Crush | 6 | Yes | Exert pressure all around a character or thing to crush it. Does `6d4` damage. |
+| Heal | 7 | | Heal a character for `7d4` health. |
+| Heal, Steal | 8 | Yes | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
 | Kill | 10 | Yes | Instantly kill any character of equal or lesser Vitality. |
 | Move | 5 |  | Move objects around with the mind. |
 | Revive | 9 | | Revive a recently killed character. |
-| Thunderstorm | 7 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does 7d4 damage. |
+| Thunderstorm | 7 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `7d4` damage. |
 
 ## Quick Start
 
@@ -268,7 +268,7 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Action | The attempt of a character to use a Skill. |
 | Challenge | The difficulty of trying to perform an Action. |
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
-| Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra 1d6 to roll. |
+| Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
 | Job | A job represents 3 related skills a character will start with. |
 | Omen | A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
