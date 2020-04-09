@@ -9,6 +9,10 @@ Goals:
 * Fast setup time for new campaigns and players
 * Flexible enough to work with any genre
 
+## Extras
+
+[Simpler Things Extras](https://github.com/ekultails/simpler_things_extras) provides complementary content such as character sheets and reference guides.
+
 ## Build Releases
 
 Each tagged release on GitHub has a related release that provides PDF files.
@@ -17,12 +21,6 @@ Each tagged release on GitHub has a related release that provides PDF files.
 for guide in $(ls -1 *.md | cut -d\. -f1); do pandoc -f markdown -t latex -o ${guide}.pdf ${guide}.md; done
 ```
 
-## Licenses
+## License
 
-All documents are licensed under open source licenses.
-
-* [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.en.html)
-    * simpler_things.md
-    * stre_gm_reference_sheet.md
-* [WTFPL](http://www.wtfpl.net/about/)
-    * stre_character_sheet.md
+[GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.en.html).
