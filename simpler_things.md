@@ -154,7 +154,7 @@ Omens:
 * A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen and the GM decides to make it harder for themto succeed. The GM upgrades the difficulty of the `Stunts` Skill check by adding `2d6`.
 
 Turn Order:
-* PC 1 has ten points in Awareness and rolls an eleven from a `1d12`. Their Turn Order would be 14 (11 + (10 / 3)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a `1d12`. Their Turn Order would be 12 (12 + (2 / 3)). PC 1 goes first. PC 2 goes after them.
+* PC 1 has ten points in Awareness and rolls an eleven from a `1d12`. Their Turn Order would be 16 (11 + (10 / 2)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a `1d12`. Their Turn Order would be 18 (12 + (12 / 2)). PC 1 goes first. PC 1 can do an action after PC 2.
 
 ## Items
 
