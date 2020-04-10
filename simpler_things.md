@@ -52,7 +52,7 @@ Jobs provide characters with a set of three different Skills Expertise to start 
 | --- | ----------- | ----------- | ----------- |
 | Administrator | Healing | Electronics | Weapons (ranged) |
 | Adventurer | Examination | Geography | Lore |
-| Doctor | Driving | Examination | Healing |
+| Doctor | Convincing | Examination | Healing |
 | Electrician | Electronics | Examination | Weapons (blades) |
 | Hacker | Electronics | Sneak | Stunts |
 | Monk | Healing | Lore | Magic |
@@ -60,7 +60,7 @@ Jobs provide characters with a set of three different Skills Expertise to start 
 | Nomad | Lore | Magic | Weapons (ranged) |
 | Officer | Healing | Stunts | Weapons (ranged) |
 | Pilot | Driving | Electronics | Geography
-| Protector | Convincing | Magic | Weapons (blades) |
+| Protector | Driving | Magic | Weapons (blades) |
 | Refugee | Magic | Sneak | Weapons (ranged) |
 | Secret Agent | Convincing | Examination | Sneak
 | Swordsman | Geography | Stunts | Weapons (blades) |
