@@ -36,8 +36,8 @@ Each Trait has four related Skills.
 | Lore | Knowledge |
 | Sneak | Awareness |
 | Stunts | Vitality |
-| Weapons (blades) | Vitality |
-| Weapons (ranged) | Vitality |
+| Weapons (near) | Vitality |
+| Weapons (far) | Vitality |
 
 Notes:
 
@@ -50,20 +50,20 @@ Jobs provide characters with a set of three different Skills Expertise to start 
 
 | Job | Expertise 1 | Expertise 2 | Expertise 3 |
 | --- | ----------- | ----------- | ----------- |
-| Administrator | Healing | Electronics | Weapons (ranged) |
+| Administrator | Healing | Electronics | Weapons (far) |
 | Adventurer | Examination | Geography | Lore |
 | Doctor | Convincing | Examination | Healing |
-| Electrician | Electronics | Examination | Weapons (blades) |
+| Electrician | Electronics | Examination | Weapons (near) |
 | Hacker | Electronics | Sneak | Stunts |
 | Monk | Healing | Lore | Magic |
-| Ninja | Sneak | Stunts | Weapons (blades) |
-| Nomad | Lore | Magic | Weapons (ranged) |
-| Officer | Healing | Stunts | Weapons (ranged) |
+| Ninja | Sneak | Stunts | Weapons (near) |
+| Nomad | Lore | Magic | Weapons (far) |
+| Officer | Healing | Stunts | Weapons (far) |
 | Pilot | Driving | Electronics | Geography
-| Protector | Driving | Magic | Weapons (blades) |
-| Refugee | Magic | Sneak | Weapons (ranged) |
+| Protector | Driving | Magic | Weapons (near) |
+| Refugee | Magic | Sneak | Weapons (far) |
 | Secret Agent | Convincing | Examination | Sneak
-| Swordsman | Geography | Stunts | Weapons (blades) |
+| Swordsman | Geography | Stunts | Weapons (near) |
 | Teacher | Convincing | Geography | Lore |
 
 ### Creation
@@ -170,33 +170,37 @@ Turn Order:
 
 ### Weapons
 
-Each Weapon has a Rank based on how easy or hard it is to use. The Rank is the number of Passes required for the Weapon to successfully attack with. It is also the number of dice to roll for the attack damage. Character sized weapons do d4 damage. Vehicle sized weapons do d10 damage. For example, an Assault Rifle that has Rank 2 will require two Passes. For damage, `2d4` dice will be rolled.
+Each Weapon has a Rank which determines how many Passes are required to successfully hit a target, how much damage it will do, and how much money it will cost to buy. The base difficulty to use any Weapon is `2d6` which is what the GM will roll. The GM can adjust the difficulty based on the situation. Subtract the results of the difficulty from the Skill Check for the related Weapon type (near or far) to get the Pass number. For the Action to work, that number should equal or exceed the Rank. Roll the Rank number of `d4` dice for damage. The cost to buy a weapon is `RANK x 200`.
 
-Summary:
+- Passes = `2d6` - (`RANK x d6`)
+- Damage = `RANK x d4`
+- Cost = `RANK x 200`
 
-* Rank = Passes required to successfully attack with that Weapon.
-* Rank = If the attack Passes, use the Rank number of d4 or d10 dice to roll for damage.
-
-#### Weapons (blades)
-
-| Name | Rank | Cost |
-| ---- | ---- | ---- |
-| Knife | 1 | 100 |
-| Quarterstaff | 2 | 300 |
-| Sword | 3 | 500 |
-| Sword, Plasma | 6 | 10000 |
-
-#### Weapons (ranged)
+#### Weapons (near)
 
 | Name | Rank | Cost |
 | ---- | ---- | ---- |
-| Assault Rifle | 2 | 600 |
-| Crossbow | 4 | 2500 |
-| \*Grenades (3 pack) | 4 | 1000 |
-| \*Grenade, Super (1 pack) | 5 | 5000 |
-| Pistol | 1 | 100 |
-| Shotgun | 3 | 1000 |
-| Sniper Rifle | 5 | 7500 |
+| Knife | 1 | 200 |
+| Staff | 2 | 400 |
+| Hammer | 3 | 600 |
+| Axe | 4 | 800 |
+| Sword | 5 | 1000 |
+| Sword, Plasma | 10 | 2000 |
+
+#### Weapons (far)
+
+| Name | Rank | Cost |
+| ---- | ---- | ---- |
+| Slingshot | 1 | 200 |
+| Spear | 2 | 400 |
+| Bow | 3 | 600 |
+| Pistol | 4 | 800 |
+| Crossbow | 5 | 1000 |
+| Assault Rifle | 6 | 1200 |
+| \*Grenades (3 pack) | 7 | 1400 |
+| Shotgun | 8 | 1600 |
+| Sniper Rifle | 9 | 1800 |
+| \*Grenade, Super (1 pack) | 10 | 2000 |
 
 \*Grenades have a one-time use and do damage in an area of 10 meters.
 
