@@ -15,7 +15,7 @@ Traits effect how good a character is at related Skills.
 Based on the Species, a player will start with different ranks for their Traits. The maximum number a character can have in any Trait is 10.
 
 | Name | Awareness | Knowledge | Vitality |
-| ---- | ------ | --------- | -------- |
+| ---- | --------- | --------- | -------- |
 | Alien | 4 | 2 | 2 |
 | Human | 2 | 2 | 4 |
 | Robot | 2 | 4 | 2 |
@@ -31,8 +31,8 @@ Each Trait has four related Skills.
 | Electronics | Knowledge |
 | Examination | Awareness |
 | Geography | Knowledge |
-| Healing\* | Vitality |
-| Magic\*\* | Awareness |
+| Healing | Vitality |
+| Magic\* | Awareness |
 | Lore | Knowledge |
 | Sneak | Awareness |
 | Stunts | Vitality |
@@ -41,8 +41,7 @@ Each Trait has four related Skills.
 
 Notes:
 
-* \*Healing takes two turns to complete, instead of one.
-* \*\*Magic can only be used by player characters that start the game with it as an Expertise.
+- \*Magic can only be used by player characters that start the game with it as an Expertise.
 
 ### Jobs
 
@@ -79,12 +78,12 @@ Jobs provide characters with a set of three different Skills Expertise to start 
 
 ## Health
 
-Health = Vitality + Armor + 10
+Health = (Vitality x 10) + Armor
 
 Possible Health:
 
-* Minimum = 2 + 0 + 10 = 12
-* Maximum = 10 + 25 + 10 = 45
+* Minimum = (2 x 10) + 0 = 20
+* Maximum = (10 x 10) + 25 = 125
 
 When a player character's health is at...
 
@@ -93,7 +92,11 @@ When a player character's health is at...
 * -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point.
 * -30 = They die.
 
-Healing will affect both a character's pure health and their armor.
+Healing requires the use of a Medical Kit. It works similar to Weapons. The base difficulty is `2d6` and can be adjusted by the GM. A successful Healing action will restore `PASSES x d4` health. A failed Health action will taken away `PASSES x d4` health. Healing includes repairing armor which should be treated as additional health. Armor only gets destroyed if a player reaches -10 health.
+
+- Passes or Failures = (`HEALING_SKILL x d6`) - `2d6`
+- Health restored = `PASSES x d4`
+- Health lost = `FAILURES x d4`
 
 ## Dice
 
@@ -101,7 +104,7 @@ These are the different types of dice used for Simpler Things.
 
 | Name | Dice Sides | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---- | ---------- | - | - | - | - | - | - | - | - | - | -- |
-| Omen | `2 | Good | Bad |
+| Omen | 2 | Good | Bad |
 | Skill Check (Action and Side Effect) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | Weapons damage (character sized) | 4 | 1 | 2 | 3 | 4 |
 | Weapons damage (vehicle sized) | 10 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
@@ -213,7 +216,7 @@ Each Weapon has a Rank which determines how many Passes are required to successf
 
 ## Magic
 
-Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. They have access to all of the available Spells.
+Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. The base difficulty to successfully cast a Spell is `4d6`. Characters have access to all of the available Spells.
 
 Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
 
