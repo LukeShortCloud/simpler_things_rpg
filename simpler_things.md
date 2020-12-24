@@ -111,7 +111,7 @@ These are the different types of dice used for Simpler Things.
 
 ### Skill Checks
 
-Player: When a player wants to perform an Action, they must tell the party (or at least the GM) and do a Skill Check. Determine the most related Skill for the Action. Based on that Skill, the player must roll their `TRAIT` number of `d6`. Add `1d6` to the dice pool if the Skill is an Expertise they player has.
+Player: When a player wants to perform an Action, they must tell the party (or at least the GM) and do a Skill Check. Determine the most related Skill for the Action. Based on that Skill, the player must roll their `TRAIT` number of `d6`. Add `1d6` to the dice pool if the Skill is an Expertise the player has.
 
 GM: The GM determines the Challenge of the Action and rolls any number of `d6` accordingly. The harder the Challenge, the more dice in the pool. Both the player and the GM need to add together the numbers that were rolled to determine each of their Results.The player will Pass a Skill Check if their Result is higher than the GM's Result.
 
