@@ -129,7 +129,7 @@ The GM tells the players what happens in the game regarding the Results of the A
 
 An Epic Event is triggered if the player rolls at least `4d6` with a natural 6 on each of the four die. For an Epic Event, the player can describe exactly what happens with their Action. The event should be within reason and must be approved by the GM. If damage is being dealt, it will be doubled.
 
-### Omens
+### Omens (Optional)
 
 Before the start of every game session, each player should flip a coin (`1d2`). Heads (1) provides a Good Omen for the player and tails (2) provides a Bad Omen for the GM to use against the player. Each Omen can only be used once for that game session. An Omen adds `2d6` to any Skill Check.
 
@@ -235,11 +235,11 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 
 * The Game Master (GM) decides the genre, time, and setting for a game.
 * Player Characters (PCs) use a Character Sheet and fill it out by following the Characters Creation guide.
-* Each PC rolls `1d2` to determine if they start with a Good (1) or Bad (2) Omen.
+* (Optional) Each PC rolls `1d2` to determine if they start with a Good (1) or Bad (2) Omen.
 * PCs can interact with anything in the game based off of their Skills and the related Traits. This is called an Action.
     * `TRAIT x d6`
     * If they have an Expertise in a Skill, they can roll one extra six-sided die.
-    * An Omen can be used once per game session to add two six-sided die (`2d6`) to the Action pool.
+    * (Optional) An Omen can be used once per game session to add two six-sided die (`2d6`) to the Action pool.
 * The GM decides how Challenging an Action is based on the situation.
     * `CHALLENGE x d6`
 * The GM determines the output of an Action.
@@ -277,7 +277,7 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
 | Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
 | Job | A job represents 3 related skills a character will start with. |
-| Omen | A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
+| Omen | An optional game component. A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
 | Side Effect | Provides a potential for a favorable or unfavorable outcome of doing an Action. |
 | Skills | The core Actions a character can do in the game. |
