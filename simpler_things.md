@@ -105,7 +105,8 @@ These are the different types of dice used for Simpler Things.
 | Name | Dice Sides | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---- | ---------- | - | - | - | - | - | - | - | - | - | -- |
 | Omen | 2 | Good | Bad |
-| Skill Check (Action and Side Effect) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
+| Skill Check (Action) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
+| Skill Check (Side Effect) | 6 | Negative | Negative | Neutral | Neutral | Positive | Positive |
 | Weapons damage (character sized) | 4 | 1 | 2 | 3 | 4 |
 | Weapons damage (vehicle sized) | 10 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 
