@@ -112,23 +112,32 @@ These are the different types of dice used for Simpler Things.
 
 ### Skill Checks
 
-Player: When a player wants to perform an Action, they must tell the party (or at least the GM) and do a Skill Check. Determine the most related Skill for the Action. Based on that Skill, the player must roll their `TRAIT` number of `d6`. Add `1d6` to the dice pool if the Skill is an Expertise the player has.
+When a Player Character (PC) wants to perform an Action, they must tell the party or at least the Game Master (GM). Determine the most related Skill for the Action. The GM determines the Difficulty. This is the result that is required for the Action to work. The PC then rolls `1d6` (or `2d6` if the Skill is an Expertise).
 
-GM: The GM determines the Challenge of the Action and rolls any number of `d6` accordingly. The harder the Challenge, the more dice in the pool. Both the player and the GM need to add together the numbers that were rolled to determine each of their Results.The player will Pass a Skill Check if their Result is higher than the GM's Result.
+Difficulty:
+- Easiest/minimum = 3
+- Hardest/maximum = 12
+
+The GM can determine that a Difficulty needs to be higher than 6. The maximum required result is 12. This requires the PC to have an Expertise in the Skill for them to be able to possibly pass the Skill Check. The Expertise allows them to roll an additional `1d6`.
 
 **Side Effects**
 
-A player must also separately roll `1d6` to determine if there is a Side Effect. If the player has an Expertise in the related Skill, add one to that Result. The GM determines what the Side Effect will be. It should relate to the Action that was (or was not) performed.
+After a Skill Check, the Player Character must also separately roll `1d6` to determine if there is a Side Effect. The Game Master (GM) determines what the Side Effect will be. It should relate to the Action that was attempted.
 
+Side Effects:
 - 1-2 = Negative
 - 3-4 = Neutral or Nothing
 - 5-6 = Positive
 
-The GM tells the players what happens in the game regarding the Results of the Action and Side Effect.
+The GM tells the players what happens in the game regarding the results of the Skill Check and Side Effect.
 
 **Epic Events**
 
-An Epic Event is triggered if the player rolls at least `4d6` with a natural 6 on each of the four die. For an Epic Event, the player can describe exactly what happens with their Action. The event should be within reason and must be approved by the GM. If damage is being dealt, it will be doubled.
+An Epic Event is when something amazing happens. There are two types: Good and Bad.
+
+A Good Epic Event requires that a Player Character (PC) has an Expertise in a Skill and rolls a total result of 12 for their `2d6` Skills Check. A PC without an Expertise in a Skill can only, at most, get a result of 6 and not 12 because they can only roll `1d6`. The PC can describe exactly what happens with their Action. The event should be within reason and must be approved by the Game Master (GM). If damage is being dealt, it will be doubled.
+
+A Bad Epic Event is triggered slightly differently. A PC must roll at least one die that has a result of 1. Then the Side Effect die roll must also result in a 1. The GM determines what horrible thing happens to the PC.
 
 ### Omens (Optional)
 
