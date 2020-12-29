@@ -74,12 +74,6 @@ When a player character's health is at...
 * -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point.
 * -30 = They die.
 
-Healing requires the use of a Medical Kit. It works similar to Weapons. The base difficulty is `2d6` and can be adjusted by the GM. A successful Healing action will restore `PASSES x d4` health. A failed Health action will taken away `PASSES x d4` health. Healing includes repairing armor which should be treated as additional health. Armor only gets destroyed if a player reaches -10 health.
-
-- Passes or Failures = (`HEALING_SKILL x d6`) - `2d6`
-- Health restored = `PASSES x d4`
-- Health lost = `FAILURES x d4`
-
 ## Dice
 
 These are the different types of dice used for Simpler Things.
@@ -89,8 +83,7 @@ These are the different types of dice used for Simpler Things.
 | Omen | 2 | Good | Bad |
 | Skill Check (Action) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | Skill Check (Side Effect) | 6 | Negative | Negative | Neutral | Neutral | Positive | Positive |
-| Weapons damage (character sized) | 4 | 1 | 2 | 3 | 4 |
-| Weapons damage (vehicle sized) | 10 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| Weapons damage | 4 | 1 | 2 | 3 | 4 |
 
 ### Skill Checks
 
@@ -148,63 +141,68 @@ Summary:
 
 ### Weapons
 
-Each Weapon has a Rank which determines how many Passes are required to successfully hit a target, how much damage it will do, and how much money it will cost to buy. The base difficulty to use any Weapon is `2d6` which is what the GM will roll. The GM can adjust the difficulty based on the situation. Subtract the results of the difficulty from the Skill Check for the related Weapon type (near or far) to get the Pass number. For the Action to work, that number should equal or exceed the Rank. Roll the Rank number of `d4` dice for damage. The cost to buy a weapon is `RANK x 200`.
+Each Weapon has a Difficulty which determines the standard Skill Check, the amount of `d4` dice to roll for damage, and the cost.
 
-- Passes = `2d6` - (`RANK x d6`)
-- Damage = `RANK x d4`
-- Cost = `RANK x 200`
+- Damage = `DIFFICULTY x d4`
+- Cost = `DIFFICULTY x 200`
 
 #### Weapons (near)
 
-| Name | Rank | Cost |
-| ---- | ---- | ---- |
-| Knife | 1 | 200 |
-| Staff | 2 | 400 |
-| Hammer | 3 | 600 |
-| Axe | 4 | 800 |
-| Sword | 5 | 1000 |
-| Sword, Plasma | 10 | 2000 |
+| Name | Difficulty |
+| ---- | ---------- |
+| Knife | 3 |
+| Staff | 4 |
+| Hammer | 5 |
+| Axe | 6 |
+| Sword | 6 |
+| Sword, Plasma | 8 |
 
 #### Weapons (far)
 
-| Name | Rank | Cost |
-| ---- | ---- | ---- |
-| Slingshot | 1 | 200 |
-| Spear | 2 | 400 |
-| Bow | 3 | 600 |
-| Pistol | 4 | 800 |
-| Crossbow | 5 | 1000 |
-| Assault Rifle | 6 | 1200 |
-| \*Grenades (3 pack) | 7 | 1400 |
-| Shotgun | 8 | 1600 |
-| Sniper Rifle | 9 | 1800 |
-| \*Grenade, Super (1 pack) | 10 | 2000 |
+| Name | Difficulty |
+| ---- | ---------- |
+| Slingshot | 3 |
+| Spear | 4 |
+| Bow | 5 |
+| Pistol | 6 |
+| Crossbow | 7 |
+| Assault Rifle | 8 |
+| \*Grenades (3 pack) | 9 |
+| Shotgun | 10 |
+| Sniper Rifle | 11 |
+| \*Grenade, Super (1 pack) | 12 |
 
 \*Grenades have a one-time use and do damage in an area of 10 meters.
 
-**Vehicle (d10 Damage)**
+**Vehicle**
 
-| Name | Rank |
-| ---- | ---- |
-| Turret (small) | 3 |
-| Turret (large) | 5 |
+Vehicle damage is multiplied by 10.
+
+| Name | Difficulty |
+| ---- | ---------- |
+| Turret (small) | 4 |
+| Turret (large) | 8 |
+
+### Healing
+
+Healing requires the use of a Medical Kit. It works similar to Weapons in that a successful Skill Check will result in `DIFFICULTY x d4` of health to be restored. Healing includes repairing armor which should be treated as additional health. Armor only gets destroyed if a player reaches -10 health.
 
 ## Magic
 
-Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. The base difficulty to successfully cast a Spell is `4d6`. Characters have access to all of the available Spells.
+Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. Characters have access to all of the available Spells.
 
 Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
 
 | Spell | Rank | Bad Omen | Description |
 | ---- | ---- | -------- | ----------- |
-| Brainwash | 6 | | Manipulate the brain of another character to make them believe or do something temporarily. |
-| Crush | 6 | Yes | Exert pressure all around a character or thing to crush it. Does `6d4` damage. |
-| Heal | 7 | | Heal a character for `7d4` health. |
+| Brainwash | 6 | No | Manipulate the brain of another character to make them believe or do something temporarily. |
+| Crush | 8 | Yes | Exert pressure all around a character or thing to crush it. Does `8d4` damage. |
+| Heal | 8 | No | Heal a character for `8d4` health. |
 | Heal, Steal | 8 | Yes | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
-| Kill | 10 | Yes | Instantly kill any character of equal or lesser Vitality. |
-| Move | 5 |  | Move objects around with the mind. |
-| Revive | 9 | | Revive a recently killed character. |
-| Thunderstorm | 7 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `7d4` damage. |
+| Kill | 12 | Yes | Instantly kill any character of equal or lesser Vitality. |
+| Move | 6 | No | Move objects around with the mind. |
+| Revive | 12 | No | Revive a recently killed character. |
+| Thunderstorm | 10 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d4` damage. |
 
 ## Vocabulary
 
