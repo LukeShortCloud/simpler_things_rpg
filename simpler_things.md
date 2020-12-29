@@ -45,25 +45,7 @@ Notes:
 
 ### Jobs
 
-Jobs provide characters with a set of three different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill check.
-
-| Job | Expertise 1 | Expertise 2 | Expertise 3 |
-| --- | ----------- | ----------- | ----------- |
-| Administrator | Healing | Electronics | Weapons (far) |
-| Adventurer | Examination | Geography | Lore |
-| Doctor | Convincing | Examination | Healing |
-| Electrician | Electronics | Examination | Weapons (near) |
-| Hacker | Electronics | Sneak | Stunts |
-| Monk | Healing | Lore | Magic |
-| Ninja | Sneak | Stunts | Weapons (near) |
-| Nomad | Lore | Magic | Weapons (far) |
-| Officer | Healing | Stunts | Weapons (far) |
-| Pilot | Driving | Electronics | Geography
-| Protector | Driving | Magic | Weapons (near) |
-| Refugee | Magic | Sneak | Weapons (far) |
-| Secret Agent | Convincing | Examination | Sneak
-| Swordsman | Geography | Stunts | Weapons (near) |
-| Teacher | Convincing | Geography | Lore |
+Jobs provide characters with a set of two different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Checks. It also allows Good Epic Events to occur. The Player Characters get to determine what their Job title is and what two related Skills they want to have.
 
 ### Creation
 
@@ -244,7 +226,7 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Challenge | The difficulty of trying to perform an Action. |
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
 | Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
-| Job | A job represents 3 related skills a character will start with. |
+| Job | A Job is a title that represents 2 related skills a character will start with. |
 | Omen | An optional game component. A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
 | Side Effect | Provides a potential for a favorable or unfavorable outcome of doing an Action. |
