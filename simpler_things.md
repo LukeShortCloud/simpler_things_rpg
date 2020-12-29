@@ -152,23 +152,6 @@ Summary:
 * Turn Order = `1d12 + AWARENESS`
 * Go in descending order of everyone's results.
 
-### Examples
-
-Passes:
-*  If there was one Pass for the PC and two Passes for the GM means that the player fails at their Action (they got -1 Pass).
-
-Expertise:
-* A roll for a character with the Geography (Expertise) who has a Knowledge (Trait) of six will get to roll seven Action dice. They get the extra dice for having an Expertise in the Skill.
-
-Epic Event:
-* A player does a Skill Check for Electronics. They roll `5d6` and get the numbers: 4, 6, 6, 6, and 6. This triggers an Epic Event. The player describes how they managed to access the system using their own decryption method and gained additional information about their arch nemesis that the group was not originally planning on finding there.
-
-Omens:
-* A player tries to make an ambitious jump from one cliff to another. That player has a Bad Omen and the GM decides to make it harder for themto succeed. The GM upgrades the difficulty of the `Stunts` Skill check by adding `2d6`.
-
-Turn Order:
-* PC 1 has ten points in Awareness and rolls an eleven from a `1d12`. Their Turn Order would be 16 (11 + (10 / 2)) . PC 2 has two points in Awareness and rolls a maximum of 12 from a `1d12`. Their Turn Order would be 18 (12 + (12 / 2)). PC 1 goes first. PC 1 can do an action after PC 2.
-
 ## Items
 
 ### Armor
@@ -240,31 +223,6 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Move | 5 |  | Move objects around with the mind. |
 | Revive | 9 | | Revive a recently killed character. |
 | Thunderstorm | 7 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `7d4` damage. |
-
-## Quick Start
-
-* The Game Master (GM) decides the genre, time, and setting for a game.
-* Player Characters (PCs) use a Character Sheet and fill it out by following the Characters Creation guide.
-* (Optional) Each PC rolls `1d2` to determine if they start with a Good (1) or Bad (2) Omen.
-* PCs can interact with anything in the game based off of their Skills and the related Traits. This is called an Action.
-    * `TRAIT x d6`
-    * If they have an Expertise in a Skill, they can roll one extra six-sided die.
-    * (Optional) An Omen can be used once per game session to add two six-sided die (`2d6`) to the Action pool.
-* The GM decides how Challenging an Action is based on the situation.
-    * `CHALLENGE x d6`
-* The GM determines the output of an Action.
-    * Positive or Negative Pass = The PC successfully completes or fails their Action.
-    * Positive or Negative Side Effect = A good or bad side effect (related event) happens as a result of the Action. This is determined by the GM.
-    * Epic Event (four separate `1d6` dice naturally land on a 6) = The Action is so perfectly executed that something amazing happens. If the PC triggers an Epic Event, they can narrate what happens.
-        * If this is for a Weapons related Action, the damage will be doubled.
-* Combat
-    * Everyone rolls for their Turn Order. The characters with the highest number goes first.
-        * `1d12 + AWARENESS`
-    * For a Weapons Action to Pass, a character must get the same number of Passes as the number of Rank the Weapon has listed.
-        * If the Action Passes, the character rolls `WEAPON RANK x d4` for damage for normal handheld Weapons. For vehicle Weapons, the roll for damage is `WEAPON RANK x d10`.
-* Magic
-    * Works the same as any normal Skill check except it requires that a character has an Expertise in Magic to use it at all.
-    * If it Passes, the PC can narrate what happens as a result of their Action (within reason and with approval from the GM).
 
 ## Vocabulary
 
