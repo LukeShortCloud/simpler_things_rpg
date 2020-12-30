@@ -116,7 +116,9 @@ A Bad Epic Event is triggered slightly differently. A PC must roll at least one 
 
 ### Omens (Optional)
 
-Before the start of every game session, each player should flip a coin (`1d2`). Heads (1) provides a Good Omen for the player and tails (2) provides a Bad Omen for the GM to use against the player. Each Omen can only be used once for that game session. An Omen adds `2d6` to any Skill Check.
+Before the start of every game session, each Player Character (PC) flips a coin (`1d2`). Heads (1) provides a Good Omen for the player and tails (2) provides a Bad Omen for the GM to use against the player. Each Omen can only be used once for that game session.
+
+A Good Omen allows a Player Character to add an extra `1d6` to any Skill Check. If that character has an Expertise in a Skill, they will roll `3d6` total. A Bad Omen allows the GM to increase the Difficulty of a Skill Check by 4. The maximum Difficulty cannot exceed 12.
 
 ### Turn Order
 
