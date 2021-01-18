@@ -2,6 +2,12 @@
 
 ## Characters
 
+### Creation
+
+* Pick a Species.
+* Pick a Job.
+* Buy Items with a budget of $1000. Players get to keep the unspent money.
+
 ### Traits
 
 Traits effect how good a character is at related Skills.
@@ -46,12 +52,6 @@ Notes:
 ### Jobs
 
 Jobs provide characters with a set of two different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Checks. It also allows Good Epic Events to occur. The Player Characters get to determine what their Job title is and what two related Skills they want to have.
-
-### Creation
-
-* Pick a Species.
-* Pick a Job.
-* Buy Items with a budget of $1000. Players get to keep the unspent money.
 
 ### Leveling Up
 
