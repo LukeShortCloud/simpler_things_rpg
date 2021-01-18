@@ -20,7 +20,7 @@ Goals:
 Each tagged release on GitHub has a related release that provides PDF files.
 
 ```sh
-for guide in $(ls -1 *.md | cut -d\. -f1); do pandoc -f markdown -t latex -o ${guide}.pdf ${guide}.md; done
+for guide in $(ls -1 *.md | cut -d\. -f1); do pandoc --toc -f markdown -t latex -o ${guide}.pdf ${guide}.md; done
 ```
 
 ## License
