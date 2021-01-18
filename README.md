@@ -7,7 +7,7 @@ Goals:
 * Simple rules
 * Quick references
 * Fast setup time for new campaigns and players
-* Flexible enough to work with any genre
+* Flexible enough to work with any genre (fantasy, space sci-fi, western, etc.)
 
 ## Extras
 
