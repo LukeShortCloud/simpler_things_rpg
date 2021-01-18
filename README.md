@@ -1,4 +1,4 @@
-# Simpler Things RPG Engine
+# Simpler Things RPG
 
 An open source role-playing table-top game engine. PDF releases of the game rules and other supporting documents are available [here](https://github.com/ekultails/simpler_things_rpg/releases).
 
