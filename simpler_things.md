@@ -55,7 +55,10 @@ Jobs provide characters with a set of two different Skills Expertise to start of
 
 ### Leveling Up
 
-* Every level up, a player can add one point to any Trait.
+* The Game Master determines when the Player Characters level up. Examples of when may be a good time to have players level up:
+    * A big quest is completed.
+    * Lots of little quests are completed.
+    * Every game session.
 * Every four level ups (5, 9, 13, etc.), a player gets a new Expertise of their choice.
 
 ## Health
