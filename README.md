@@ -1,6 +1,8 @@
 # Simpler Things RPG
 
-An open source role-playing table-top game engine. PDF releases of the game rules and other supporting documents are available [here](https://github.com/ekultails/simpler_things_rpg/releases).
+An open source tabletop role-playing game (TTRPG) engine. PDF releases of the game rules and other supporting documents are available as assets [here](https://github.com/ekultails/simpler_things_rpg/releases).
+
+Most TTRPGs are complicated, require large and expensive reference guides, and take too long to learn all of the rules. Simpler Things RPG was created to make the focus on the characters, stories, and fun. Not learning the rules.
 
 Goals:
 
