@@ -16,19 +16,25 @@ Traits effect how good a character is at related Skills.
 * Knowledge = Philosophy.
 * Vitality = Health and power.
 
+Advantages each Trait provides:
+
+- Awareness = Increases the chance of having a higher initiative (to attack first).
+- Knowledge = Every point provides a Skill Check that can be rerolled (per game session).
+- Vitality = Increases a characters overall health.
+
 ### Species
 
-Based on the Species, a player will start with different ranks for their Traits. The maximum number a character can have in any Trait is 10.
+Based on the Species, a player will start with different ranks for their Traits. The maximum number a character can have in any one Trait is 4.
 
 | Name | Awareness | Knowledge | Vitality |
 | ---- | --------- | --------- | -------- |
-| Alien | 4 | 2 | 2 |
-| Human | 2 | 2 | 4 |
-| Robot | 2 | 4 | 2 |
+| Alien | 2 | 1 | 1 |
+| Human | 1 | 1 | 2 |
+| Robot | 1 | 2 | 1 |
 
 ## Skills
 
-Each Trait has four related Skills.
+Each Trait has four related Skills. The Trait stat of a character determines the base number of `d6` dice to roll for a Skill Check. The minimum any character can roll is `1d6`.
 
 | Name | Trait |
 | ---- | ----- |
@@ -51,38 +57,39 @@ Notes:
 
 ### Expertise
 
-Player characters start the game with an Expertise in two different skills. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Check. It also allows Good Epic Events to occur.
+Player Characters start the game with an Expertise in one Skill. Characters can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Check.
 
 ### Leveling Up
 
-* The Game Master determines when the Player Characters level up. Examples of when may be a good time to have players level up:
+* The Game Master determines when the Player Characters (PCs) level up. Examples of when may be a good time to have players level up:
     * A big quest is completed.
     * Lots of little quests are completed.
     * Every game session.
-* Every four level ups (5, 9, 13, etc.), a player gets a new Expertise of their choice.
+* Every level up, a PC gets a new Expertise of their choice.
+* Every four levels (4, 8, 12, 16, etc.), a PC adds one point to a Trait of their choice: Awareness, Knowledge, or Vitality.
 
 ## Health
 
-Health = (Vitality x 10) + Armor
+Health = (Vitality x 20) + Armor
 
 Possible Health:
 
-* Minimum = (2 x 10) + 0 = 20
-* Maximum = (10 x 10) + 25 = 125
+* Minimum = (1 x 20) + 0 = 20
+* Maximum = (4 x 20) + 25 = 105
 
 When a player character's health is at...
 
 * 0 = They can no longer make an action.
 * -10 = Their armor breaks and cannot be repaired/reused.
-* -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point.
+* -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point from their highest Trait stat.
 * -30 = They die.
 
 ## Dice
 
 These are the different types of dice used for Simpler Things.
 
-| Name | Dice Sides | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| ---- | ---------- | - | - | - | - | - | - | - | - | - | -- |
+| Name | Dice Sides | 1 | 2 | 3 | 4 | 5 | 6 |
+| ---- | ---------- | - | - | - | - | - | - |
 | Omen | 2 | Good | Bad |
 | Skill Check (Action) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | Skill Check (Side Effect) | 6 | Negative | Negative | Neutral | Neutral | Positive | Positive |
@@ -90,11 +97,19 @@ These are the different types of dice used for Simpler Things.
 
 ### Skill Checks
 
-When a Player Character (PC) wants to perform an Action, they must tell the party or at least the Game Master (GM). Determine the most related Skill for the Action. The GM determines the Difficulty. This is the result that is required for the Action to work. The PC then rolls `1d6` (or `2d6` if the Skill is an Expertise).
+When a Player Character (PC) wants to perform an Action, they must tell the party or at least the Game Master (GM). Determine the most related Skill for the Action. The GM determines the Difficulty. This is the result that is required for the Action to work.
+
+Rolls:
+
+- Skills Check = `TRAIT x d6`
+- Skills Check with an Expertise = `(TRAIT x d6) + 1d6`
 
 Difficulty:
+
 - Easiest/minimum = 3
-- Hardest/maximum = 12
+    - This ensures that even if a player has a Skill Check roll of `2d6`, it is possible to fail.
+- Hardest/maximum = 30
+    - This is the maximum result a PC can get if they have a Trait maxed out at 4 and an Expertise in the related Skill. They roll `5d6`.
 
 The GM can determine that a Difficulty needs to be higher than 6. The maximum required result is 12. This requires the PC to have an Expertise in the Skill for them to be able to possibly pass the Skill Check. The Expertise allows them to roll an additional `1d6`.
 
@@ -113,15 +128,15 @@ The GM tells the players what happens in the game regarding the results of the S
 
 An Epic Event is when something amazing happens. There are two types: Good and Bad.
 
-A Good Epic Event requires that a Player Character (PC) has an Expertise in a Skill and rolls a total result of 12 for their `2d6` Skills Check. A PC without an Expertise in a Skill can only, at most, get a result of 6 and not 12 because they can only roll `1d6`. The PC can describe exactly what happens with their Action. The event should be within reason and must be approved by the Game Master (GM). If damage is being dealt, it will be doubled.
+A Good Epic Event requires that a Player Character (PC) rolls three `6`s as part of a Skill Check. The PC can describe exactly what happens with their Action. The event should be within reason and must be approved by the Game Master (GM). If damage is being dealt, it will be doubled.
 
-A Bad Epic Event is triggered slightly differently. A PC must roll at least one die that has a result of 1. Then the Side Effect die roll must also result in a 1. The GM determines what horrible thing happens to the PC.
+A Bad Epic Event is triggered slightly differently. A PC must roll at least one die that has a result of 1. Then the Side Effect die roll must also result in a 1. The GM determines what horrible thing happens to the PC. Using the Knowledge Trait to reroll cannot stop a Bad Epic Event.
 
 ### Omens (Optional)
 
 Before the start of every game session, each Player Character (PC) flips a coin (`1d2`). Heads (1) provides a Good Omen for the player and tails (2) provides a Bad Omen for the GM to use against the player. Each Omen can only be used once for that game session.
 
-A Good Omen allows a Player Character to add an extra `1d6` to any Skill Check. If that character has an Expertise in a Skill, they will roll `3d6` total. A Bad Omen allows the GM to increase the Difficulty of a Skill Check by 4. The maximum Difficulty cannot exceed 12.
+A Good Omen allows a Player Character to add an extra `1d6` to any Skill Check for that PC. A Bad Omen allows the GM to increase the Difficulty of a Skill Check for the specified PC by `1d6`.
 
 ### Turn Order
 
@@ -129,7 +144,7 @@ All players (PCs and NPCs) must roll a `1d12` (or `2d6`) for their initiative an
 
 Summary:
 
-* Turn Order = `1d12 + AWARENESS`
+* Turn Order = `1d12 + (AWARENESS x 1d6)`
 * Go in descending order of everyone's results.
 
 ## Items
