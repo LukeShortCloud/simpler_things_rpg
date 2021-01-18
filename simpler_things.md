@@ -5,7 +5,7 @@
 ### Creation
 
 * Pick a Species.
-* Pick a Job.
+* Pick two Skills to have an Expertise in.
 * Buy Items with a budget of $1000. Players get to keep the unspent money.
 
 ### Traits
@@ -49,9 +49,9 @@ Notes:
 
 - \*Magic can only be used by player characters that start the game with it as an Expertise.
 
-### Jobs
+### Expertise
 
-Jobs provide characters with a set of two different Skills Expertise to start off with. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Checks. It also allows Good Epic Events to occur. The Player Characters get to determine what their Job title is and what two related Skills they want to have.
+Player characters start the game with an Expertise in two different skills. A character can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Check. It also allows Good Epic Events to occur.
 
 ### Leveling Up
 
@@ -229,7 +229,6 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Challenge | The difficulty of trying to perform an Action. |
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
 | Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
-| Job | A Job is a title that represents 2 related skills a character will start with. |
 | Omen | An optional game component. A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
 | Side Effect | Provides a potential for a favorable or unfavorable outcome of doing an Action. |
