@@ -219,7 +219,6 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Crush | 8 | Yes | Exert pressure all around a character or thing to crush it. Does `8d4` damage. |
 | Heal | 8 | No | Heal a character for `8d4` health. |
 | Heal, Steal | 8 | Yes | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
-| Kill | 12 | Yes | Instantly kill any character of equal or lesser Vitality. |
 | Move | 6 | No | Move objects around with the mind. |
 | Revive | 12 | No | Revive a recently killed character. |
 | Thunderstorm | 10 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d4` damage. |
