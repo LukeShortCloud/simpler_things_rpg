@@ -5,7 +5,7 @@
 ### Creation
 
 * Pick a Species.
-* Pick two Skills to have an Expertise in.
+* Pick one Skill to have an Expertise in.
 * Buy Items with a budget of $1000. Players get to keep the unspent money.
 
 ### Traits
