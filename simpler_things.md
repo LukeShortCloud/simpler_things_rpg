@@ -5,7 +5,7 @@
 ### Creation
 
 * Pick a Species.
-* Pick one Skill to have an Expertise in.
+* Pick one Skill to Boost.
 * Buy Items with a budget of $1000. Players get to keep the unspent money.
 
 ### Traits
@@ -53,11 +53,11 @@ Each Trait has four related Skills. The Trait stat of a character determines the
 
 Notes:
 
-- \*Magic can only be used by player characters that start the game with it as an Expertise.
+- \*Magic can only be used by Player Characters that start the game with it as a Boosted Skill.
 
-### Expertise
+### Boosts
 
-Player Characters start the game with an Expertise in one Skill. Characters can only become an Expert in a Skill once. An Expertise adds an extra `1d6` to the related Skill Check.
+Player Characters start the game with one Skill that is Boosted. Characters can only Boost a Skill once. A Boost adds an extra `1d6` to the related Skill Check.
 
 ### Leveling Up
 
@@ -65,7 +65,7 @@ Player Characters start the game with an Expertise in one Skill. Characters can 
     * A big quest is completed.
     * Lots of little quests are completed.
     * Every game session.
-* Every level up, a PC gets a new Expertise of their choice.
+* Every level up, a PC gets a new Boosted Skill of their choice.
 * Every four levels (4, 8, 12, 16, etc.), a PC adds one point to a Trait of their choice: Awareness, Knowledge, or Vitality.
 
 ## Health
@@ -102,16 +102,16 @@ When a Player Character (PC) wants to perform an Action, they must tell the part
 Rolls:
 
 - Skills Check = `TRAIT x d6`
-- Skills Check with an Expertise = `(TRAIT x d6) + 1d6`
+- Skills Check with a Boost = `(TRAIT x d6) + 1d6`
 
 Difficulty:
 
 - Easiest/minimum = 3
     - This ensures that even if a player has a Skill Check roll of `2d6`, it is possible to fail.
 - Hardest/maximum = 30
-    - This is the maximum result a PC can get if they have a Trait maxed out at 4 and an Expertise in the related Skill. They roll `5d6`.
+    - This is the maximum result a PC can get if they have a Trait maxed out at 4 and a Boost in the related Skill. They roll `5d6`.
 
-The GM can determine that a Difficulty needs to be higher than 6. The maximum required result is 12. This requires the PC to have an Expertise in the Skill for them to be able to possibly pass the Skill Check. The Expertise allows them to roll an additional `1d6`.
+The GM can determine that a Difficulty needs to be higher than 6. The maximum required result is 12. This requires the PC to have a Boost in the Skill for them to be able to possibly pass the Skill Check. The Boost allows them to roll an additional `1d6`.
 
 **Side Effects**
 
@@ -210,7 +210,7 @@ Healing requires the use of a Medical Kit. It works similar to Weapons in that a
 
 ## Magic
 
-Magic is difficult to use yet very powerful when it actually works. Only a character with Expertise in Magic can use it. Characters have access to all of the available Spells.
+Magic is difficult to use yet very powerful when it actually works. Only a character with Boost in Magic can use it. Characters have access to all of the available Spells.
 
 Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
 
@@ -243,14 +243,14 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Action | The attempt of a character to use a Skill. |
 | Challenge | The difficulty of trying to perform an Action. |
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
-| Expertise | Provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
+| Boost | A Skill can become permanently Boosted once. It provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
 | Omen | An optional game component. A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
 | Pass | Used to determine if a player's Action will work. |
 | Side Effect | Provides a potential for a favorable or unfavorable outcome of doing an Action. |
 | Skills | The core Actions a character can do in the game. |
 | Skill Check | The rolling of dice to see if a character can complete an Action. |
 | Species | The type of Species represents the Trait levels a character will start with. |
-| Traits | Statistics that, along with their Expertise, affect the amount of dice in a Player Characters' dice pool. |
+| Traits | Statistics that, along with their possible Boost, affect the amount of dice in a Player Characters' dice pool. |
 | STR | Simpler Things RPG. The official name of this open-source game engine. |
 
 ## License
