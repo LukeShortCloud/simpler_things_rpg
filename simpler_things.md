@@ -191,6 +191,7 @@ Each Weapon has a Difficulty which determines the standard Skill Check, the amou
 | Shotgun | 10 |
 | Sniper Rifle | 11 |
 | \*Grenade, Super (1 pack) | 12 |
+| Rocket Launcher | 16 |
 
 \*Grenades have a one-time use and do damage in an area of 10 meters.
 
