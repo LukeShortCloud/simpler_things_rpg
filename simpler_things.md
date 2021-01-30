@@ -172,26 +172,26 @@ Each Weapon has a predefined Difficulty. That number also determines the amount 
 
 | Name | Difficulty |
 | ---- | ---------- |
-| Knife | 3 |
-| Staff | 4 |
-| Hammer | 5 |
-| Axe | 6 |
+| Knife | 2 |
+| Staff | 3 |
+| Hammer | 4 |
+| Axe | 5 |
 | Sword | 6 |
-| Sword, Plasma | 8 |
+| Sword, Plasma | 12 |
 
 #### Weapons (far)
 
 | Name | Difficulty |
 | ---- | ---------- |
-| Slingshot | 3 |
-| Spear | 4 |
-| Bow | 5 |
+| Slingshot | 2 |
+| Spear | 3 |
+| Bow | 4 |
+| Crossbow | 5 |
 | Pistol | 6 |
-| Crossbow | 7 |
 | Assault Rifle | 8 |
-| \*Grenades (3 pack) | 9 |
+| \*Grenades (3 pack) | 10 |
 | Shotgun | 10 |
-| Sniper Rifle | 11 |
+| Sniper Rifle | 12 |
 | \*Grenade, Super (1 pack) | 12 |
 | Rocket Launcher | 16 |
 
