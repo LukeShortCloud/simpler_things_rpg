@@ -4,17 +4,17 @@
 
 ### Creation
 
-* Pick a Species.
-* Pick one Skill to Boost.
-* Buy Items with a budget of $1000. Players get to keep the unspent money.
+- Pick a Species.
+- Pick one Skill to Boost.
+- Buy Items with a budget of $1000. Players get to keep the unspent money.
 
 ### Traits
 
 Traits effect how good a character is at related Skills.
 
-* Awareness = Social skills and mental strength.
-* Knowledge = Philosophy.
-* Vitality = Health and power.
+- Awareness = Social skills and mental strength.
+- Knowledge = Philosophy.
+- Vitality = Health and power.
 
 Advantages each Trait provides:
 
@@ -57,13 +57,13 @@ Player Characters start the game with one Skill that is Boosted. Characters can 
 
 ### Leveling Up
 
-* The Game Master determines when the Player Characters (PCs) level up. Examples of when may be a good time to have players level up:
-    * A big quest is completed.
-    * Lots of little quests are completed.
-    * Every game session.
-* Every level up, a PC gets a new Boosted Skill of their choice.
-* Every four levels (4, 8, and 12), a PC adds one point to a Trait of their choice: Awareness, Knowledge, or Vitality.
-* The maximum level a player can reach is 12. At that level, all Skills have been boosted and one Trait could optionally be maxed out at 5.
+- The Game Master determines when the Player Characters (PCs) level up. Examples of when may be a good time to have players level up:
+    - A big quest is completed.
+    - Lots of little quests are completed.
+    - Every game session.
+- Every level up, a PC gets a new Boosted Skill of their choice.
+- Every four levels (4, 8, and 12), a PC adds one point to a Trait of their choice: Awareness, Knowledge, or Vitality.
+- The maximum level a player can reach is 12. At that level, all Skills have been boosted and one Trait could optionally be maxed out at 5.
 
 ## Health
 
@@ -71,16 +71,16 @@ Health = (Vitality x 10) + Armor
 
 Possible Health:
 
-* Minimum = (1 x 10) + 0 = 10
-* Medium = (3 x 10) + 15 = 45
-* Maximum = (5 x 10) + 25 = 75
+- Minimum = (1 x 10) + 0 = 10
+- Medium = (3 x 10) + 15 = 45
+- Maximum = (5 x 10) + 25 = 75
 
 When a player character's health is at...
 
-* 0 = They can no longer make an action.
-* -10 = Their armor breaks and cannot be repaired/reused.
-* -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point from their highest Trait stat.
-* -30 = They die.
+- 0 = They can no longer make an action.
+- -10 = Their armor breaks and cannot be repaired/reused.
+- -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point from their highest Trait stat.
+- -30 = They die.
 
 ## Dice
 
@@ -143,8 +143,8 @@ All players (PCs and NPCs) must roll a `1d12` (or `2d6`) for their initiative an
 
 Summary:
 
-* Turn Order = `1d12 + (AWARENESS x 1d6)`
-* Go in descending order of everyone's results.
+- Turn Order = `1d12 + (AWARENESS x 1d6)`
+- Go in descending order of everyone's results.
 
 ## Items
 
