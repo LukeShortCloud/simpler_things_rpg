@@ -94,7 +94,7 @@ These are the different types of dice used for Simpler Things.
 
 ### Skill Checks
 
-When a Player Character (PC) wants to perform an Action, they must tell the party or at least the Game Master (GM). Determine the most related Skill for the Action. The GM determines the Difficulty. This is the result that is required for the Action to work.
+When a Player Character (PC) wants to perform an Action, they must tell the party or at least the Game Master (GM). Determine the most related Skill for the Action. The GM determines the Difficulty and it should be a multiple of 3. This is the result that is required for the Action to work.
 
 Rolls:
 
