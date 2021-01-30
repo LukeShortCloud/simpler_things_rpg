@@ -93,7 +93,8 @@ These are the different types of dice used for Simpler Things.
 | Omen | 2 | Good | Bad |
 | Skill Check (Action) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
 | Skill Check (Side Effect) | 6 | Negative | Negative | Neutral | Neutral | Positive | Positive |
-| Weapons damage | 4 | 1 | 2 | 3 | 4 |
+| Weapons damage (d2) | 2 | 1 | 2 |
+| Weapons damage (d4) | 4 | 1 | 1 | 2 | 2 |
 
 ### Skill Checks
 
@@ -161,9 +162,10 @@ Summary:
 
 ### Weapons
 
-Each Weapon has a Difficulty which determines the standard Skill Check, the amount of `d4` dice to roll for damage, and the cost.
+Each Weapon has a predefined Difficulty. That number also determines the amount of `d2` dice to roll for damage and the cost of it.
 
-- Damage = `DIFFICULTY x d4`
+- Damage = `DIFFICULTY x d2`
+    - It may be more convenient to roll `d4` dice instead of flipping `d2` coins. Roll the `d4` dice, total the number up, round to the next even number if it is odd, and then divide by two.
 - Cost = `DIFFICULTY x 200`
 
 #### Weapons (near)
@@ -217,12 +219,12 @@ Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player
 | Spell | Difficulty | Bad Omen | Description |
 | ---- | ---- | -------- | ----------- |
 | Brainwash | 6 | No | Manipulate the brain of another character to make them believe or do something temporarily. |
-| Crush | 8 | Yes | Exert pressure all around a character or thing to crush it. Does `8d4` damage. |
+| Crush | 8 | Yes | Exert pressure all around a character or thing to crush it. Does `8d2` damage. |
 | Heal | 8 | No | Heal a character for `8d4` health. |
 | Heal, Steal | 8 | Yes | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
 | Move | 6 | No | Move objects around with the mind. |
 | Revive | 12 | No | Revive a recently killed character. |
-| Thunderstorm | 10 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d4` damage. |
+| Thunderstorm | 10 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d2` damage. |
 
 ## Vocabulary
 
