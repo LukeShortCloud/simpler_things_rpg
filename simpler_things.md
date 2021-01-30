@@ -92,7 +92,7 @@ These are the different types of dice used for Simpler Things.
 | ---- | ---------- | - | - | - | - | - | - |
 | Omen | 2 | Good | Bad |
 | Skill Check (Action) | 6 | 1 | 2 | 3 | 4 | 5 | 6 |
-| Skill Check (Side Effect) | 6 | Negative | Negative | Neutral | Neutral | Positive | Positive |
+| Skill Check (Side Effect) | 6 | Negative | Neutral | Neutral | Neutral | Neutral | Positive |
 | Weapons damage (d2) | 2 | 1 | 2 |
 | Weapons damage (d4) | 4 | 1 | 1 | 2 | 2 |
 
@@ -119,9 +119,9 @@ The GM can determine that a Difficulty needs to be higher than 6. The maximum re
 After a Skill Check, the Player Character must also separately roll `1d6` to determine if there is a Side Effect. The Game Master (GM) determines what the Side Effect will be. It should relate to the Action that was attempted.
 
 Side Effects:
-- 1-2 = Negative
-- 3-4 = Neutral or Nothing
-- 5-6 = Positive
+- 1 = Negative
+- 2-5 = Neutral or Nothing
+- 6 = Positive
 
 The GM tells the players what happens in the game regarding the results of the Skill Check and Side Effect.
 
