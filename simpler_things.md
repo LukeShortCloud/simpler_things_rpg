@@ -24,7 +24,7 @@ Advantages each Trait provides:
 
 ### Species
 
-Based on the Species, a player will start with different ranks for their Traits. The maximum number a character can have in any one Trait is 4.
+Based on the Species, a player will start with different ranks for their Traits. The maximum number a character can have in any one Trait is 5.
 
 | Name | Awareness | Knowledge | Vitality |
 | ---- | --------- | --------- | -------- |
@@ -62,7 +62,8 @@ Player Characters start the game with one Skill that is Boosted. Characters can 
     * Lots of little quests are completed.
     * Every game session.
 * Every level up, a PC gets a new Boosted Skill of their choice.
-* Every four levels (4, 8, 12, 16, etc.), a PC adds one point to a Trait of their choice: Awareness, Knowledge, or Vitality.
+* Every four levels (4, 8, and 12), a PC adds one point to a Trait of their choice: Awareness, Knowledge, or Vitality.
+* The maximum level a player can reach is 12. At that level, all Skills have been boosted and one Trait could optionally be maxed out at 5.
 
 ## Health
 
