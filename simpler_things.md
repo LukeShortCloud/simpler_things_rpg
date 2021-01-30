@@ -67,12 +67,13 @@ Player Characters start the game with one Skill that is Boosted. Characters can 
 
 ## Health
 
-Health = (Vitality x 20) + Armor
+Health = (Vitality x 10) + Armor
 
 Possible Health:
 
-* Minimum = (1 x 20) + 0 = 20
-* Maximum = (4 x 20) + 25 = 105
+* Minimum = (1 x 10) + 0 = 10
+* Medium = (3 x 10) + 15 = 45
+* Maximum = (5 x 10) + 25 = 75
 
 When a player character's health is at...
 
