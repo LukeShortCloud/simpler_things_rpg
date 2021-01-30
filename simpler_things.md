@@ -39,21 +39,17 @@ Each Trait has four related Skills. The Trait stat of a character determines the
 | Name | Trait |
 | ---- | ----- |
 | Convincing | Awareness |
-| Driving | Knowledge |
 | Electronics | Knowledge |
 | Examination | Awareness |
+| Fistfight | Vitality |
 | Geography | Knowledge |
-| Healing | Vitality |
-| Magic\* | Awareness |
+| Healing | Knowledge |
 | Lore | Knowledge |
 | Sneak | Awareness |
+| Strength | Vitality |
 | Stunts | Vitality |
 | Weapons (near) | Vitality |
-| Weapons (far) | Vitality |
-
-Notes:
-
-- \*Magic can only be used by Player Characters that start the game with it as a Boosted Skill.
+| Weapons (far) | Awareness |
 
 ### Boosts
 
@@ -212,9 +208,7 @@ Healing requires the use of a Medical Kit. It works similar to Weapons in that a
 
 ## Magic
 
-Magic is difficult to use yet very powerful when it actually works. Only a character with Boost in Magic can use it. Characters have access to all of the available Spells.
-
-Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
+Magic works by using the Awareness Trait for a Skill Check. Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
 
 | Spell | Difficulty | Bad Omen | Description |
 | ---- | ---- | -------- | ----------- |
