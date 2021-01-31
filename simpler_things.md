@@ -214,13 +214,13 @@ Magic works by using the Awareness Trait for a Skill Check.
 
 | Spell | Difficulty | Description |
 | ----- | ---------- | ----------- |
-| Brainwash | 6 | Manipulate the brain of another character to make them believe or do something temporarily. |
-| Crush | 8 | Exert pressure all around a character or thing to crush it. Does `8d2` damage. |
-| Heal | 8 | Heal a character for `8d4` health. |
-| Heal, Steal | 8 | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
-| Move | 6 | Move objects around with the mind. |
-| Revive | 12 | Revive a recently killed character. |
-| Thunderstorm | 10 | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d2` damage. |
+| Brainwash | 12 | Manipulate the brain of another character to make them believe or do something temporarily. |
+| Crush | 16 | Exert pressure all around a character or thing to crush it. Does `8d2` damage. |
+| Heal | 12 | Heal a character for `6d2` health. |
+| Heal, Steal | 16 | Steal health from another character. Take `4d2` health away from the other character and add it to the casters' health. |
+| Move | 8 | Move objects around with the mind. |
+| Revive | 24 | Revive a recently killed character. |
+| Thunderstorm | 24 | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `12d2` damage. |
 
 ## Vocabulary
 
