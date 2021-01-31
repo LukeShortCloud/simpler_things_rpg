@@ -243,7 +243,6 @@ Magic works by using the Awareness Trait for a Skill Check.
 | Epic Event | When a character does something incredible and is narrated by themselves to the group on what happens. |
 | Boost | A Skill can become permanently Boosted once. It provides help doing during a Skills Check for an Action by giving the character an extra `1d6` to roll. |
 | Omen | An optional game component. A Good Omen can be used by a PC to try to help themselves. A Bad Omen can be used by the GM/NPCs against the PC players. |
-| Pass | Used to determine if a player's Action will work. |
 | Side Effect | Provides a potential for a favorable or unfavorable outcome of doing an Action. |
 | Skills | The core Actions a character can do in the game. |
 | Skill Check | The rolling of dice to see if a character can complete an Action. |
