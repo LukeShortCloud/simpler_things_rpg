@@ -210,17 +210,17 @@ Healing requires the use of a Medical Kit. It works similar to Weapons in that a
 
 ## Magic
 
-Magic works by using the Awareness Trait for a Skill Check. Using Magic that is labeled as a Bad Omen will add a Bad Omen against the player casting the spell.
+Magic works by using the Awareness Trait for a Skill Check.
 
-| Spell | Difficulty | Bad Omen | Description |
-| ---- | ---- | -------- | ----------- |
-| Brainwash | 6 | No | Manipulate the brain of another character to make them believe or do something temporarily. |
-| Crush | 8 | Yes | Exert pressure all around a character or thing to crush it. Does `8d2` damage. |
-| Heal | 8 | No | Heal a character for `8d4` health. |
-| Heal, Steal | 8 | Yes | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
-| Move | 6 | No | Move objects around with the mind. |
-| Revive | 12 | No | Revive a recently killed character. |
-| Thunderstorm | 10 | Yes | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d2` damage. |
+| Spell | Difficulty | Description |
+| ----- | ---------- | ----------- |
+| Brainwash | 6 | Manipulate the brain of another character to make them believe or do something temporarily. |
+| Crush | 8 | Exert pressure all around a character or thing to crush it. Does `8d2` damage. |
+| Heal | 8 | Heal a character for `8d4` health. |
+| Heal, Steal | 8 | Steal health from another character. Take `8d4` health away from the other character and add it to the caster's health. |
+| Move | 6 | Move objects around with the mind. |
+| Revive | 12 | Revive a recently killed character. |
+| Thunderstorm | 10 | Manipulate weather by creating a thunderstorm in the casting character's hands. Does `10d2` damage. |
 
 ## Vocabulary
 
