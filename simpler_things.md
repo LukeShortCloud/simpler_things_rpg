@@ -164,7 +164,7 @@ Each Weapon has a predefined Difficulty. That number also determines the amount 
 
 - Damage = `DIFFICULTY x d2`
     - It may be more convenient to roll `d4` dice instead of flipping `d2` coins. Roll the `d4` dice, total the number up, round to the next even number if it is odd, and then divide by two.
-- Cost = `DIFFICULTY x 200`
+- Cost = `DIFFICULTY x 100`
 
 #### Weapons (near)
 
