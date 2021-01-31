@@ -107,8 +107,8 @@ Difficulty:
 
 - Easiest/minimum = 3
     - This ensures that even if a player has a Skill Check roll of `2d6`, it is possible to fail.
-- Hardest/maximum = 30
-    - This is the maximum result a PC can get if they have a Trait maxed out at 4 and a Boost in the related Skill. They roll `5d6`.
+- Hardest/maximum = 36
+    - This is the maximum result a PC can get if they have a Trait maxed out at 5 and a Boost in the related Skill. They roll `6d6`.
 
 The GM can determine that a Difficulty needs to be higher than 6. The maximum required result is 12. This requires the PC to have a Boost in the Skill for them to be able to possibly pass the Skill Check. The Boost allows them to roll an additional `1d6`.
 
