@@ -18,7 +18,7 @@ Traits effect how good a character is at related Skills.
 
 Advantages each Trait provides:
 
-- Awareness = Increases the chance of having a higher initiative (to attack first).
+- Awareness = Increases the chance of having a higher initiative (to react or attack first).
 - Knowledge = Every point provides a Skill Check that can be rerolled (per game session).
 - Vitality = Increases a characters overall health.
 
@@ -96,12 +96,9 @@ These are the different types of dice used for Simpler Things.
 
 ### Skill Checks
 
-When a Player Character (PC) wants to perform an Action, they must tell the party or at least the Game Master (GM). Determine the most related Skill for the Action. The GM determines the Difficulty and it should be a multiple of 3. This is the result that is required for the Action to work.
+When a Player Character (PC) wants to interact with their environment, they perform an Action. Most Actions require a Skill Check. The Game Master (GM) will help identify the most related Skill.
 
-Rolls:
-
-- Skills Check = `TRAIT x d6`
-- Skills Check with a Boost = `(TRAIT x d6) + 1d6`
+The GM also determines the Difficulty. The Difficulty is a multiple of 3. The lower the number, the easier it is. The higher the number, the harder it is.
 
 Difficulty:
 
@@ -110,13 +107,21 @@ Difficulty:
 - Hardest/maximum = 36
     - This is the maximum result a PC can get if they have a Trait maxed out at 5 and a Boost in the related Skill. They roll `6d6`.
 
-The GM can determine that a Difficulty needs to be higher than 6. The maximum required result is 12. This requires the PC to have a Boost in the Skill for them to be able to possibly pass the Skill Check. The Boost allows them to roll an additional `1d6`.
+The dice pool that will be rolled for a Skill Check is determined by two factors: (1) the level a character has in a Trait for the Skill and (2) if they have a permanent Boost for the Skill.
+
+For the actual Skill Check, a PC will roll their dice pool for their related Skill and then see if the sum is greater than the Difficulty the GM set. If it is, then the Action works. If the sum is lower than or equal to the Difficulty, then the Actions fails.
+
+Dice pool/roll:
+
+- Skill Check = `TRAIT x d6`
+- Skill Check with a Boost = `(TRAIT x d6) + 1d6`
 
 **Side Effects**
 
 After a Skill Check, the Player Character must also separately roll `1d6` to determine if there is a Side Effect. The Game Master (GM) determines what the Side Effect will be. It should relate to the Action that was attempted.
 
-Side Effects:
+Side Effect roll result:
+
 - 1 = Negative
 - 2-5 = Neutral or Nothing
 - 6 = Positive
@@ -229,6 +234,7 @@ Magic works by using the Awareness Trait for a Skill Check.
 | Word | Definition |
 | ---- | ---------- |
 | `d#` | A die that has `#` number of sides. |
+| `Xd#` | The `X` number of dice to roll. |
 | Dice Pool | The entire set of dice a character will roll for their attempt to do their Action. |
 | GM | The Game Master is the person who is hosting and controlling the game. |
 | NPC | Non-player characters are controlled by the Game Master. |
