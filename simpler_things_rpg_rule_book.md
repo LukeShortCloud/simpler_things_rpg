@@ -118,7 +118,7 @@ Dice pool/roll:
 
 **Side Effects**
 
-After a Skill Check, the Player Character must also separately roll `1d6` to determine if there is a Side Effect. The Game Master (GM) determines what the Side Effect will be. It should relate to the Action that was attempted.
+After a Skill Check, the Game Master (GM) rolls  `1d6` to determine if there is a Side Effect and what it will be. It should relate to the Action that was attempted.
 
 Side Effect roll result:
 
