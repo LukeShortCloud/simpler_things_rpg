@@ -165,7 +165,7 @@ Summary:
 
 ### Weapons
 
-Each Weapon has a predefined Difficulty. That number also determines the amount of `d2` dice to roll for damage and the cost of it.
+Each Weapon has a predefined base Difficulty. The Game Master can adjust the Difficulty based on the situation. That number also determines the amount of `d2` dice to roll for damage and the cost of it.
 
 - Damage = `DIFFICULTY x d2`
     - It may be more convenient to roll `d4` dice instead of flipping `d2` coins. Roll the `d4` dice, total the number up, round to the next even number if it is odd, and then divide by two.
