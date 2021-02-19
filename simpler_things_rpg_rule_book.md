@@ -79,7 +79,7 @@ When a player character's health is at...
 
 - 0 = They can no longer make an action.
 - -10 = Their armor breaks and cannot be repaired/reused.
-- -20 = They will get a permanent disability (determined by the GM) and loose at least one Trait point from their highest Trait stat.
+- -20 = They will get a permanent disability (determined by the GM) and lose at least one Trait point from their highest Trait stat.
 - -30 = They die.
 
 ## Dice
